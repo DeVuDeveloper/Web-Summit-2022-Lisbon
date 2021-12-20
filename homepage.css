@@ -1,0 +1,270 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+}
+
+
+/* font */
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.coco {
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.orange {
+  color: #f25938;
+}
+
+.grey {
+  color: #c4bfbf;
+}
+
+.greyer {
+  font-weight: bolder;
+  color: #5f5d5d;
+}
+
+.white {
+  color: #fff;
+}
+
+.red {
+  color: red;
+}
+
+
+/* .wraper {
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.wraper::after {
+  content: '';
+  display: block;
+  background-image: url('img/bkg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+} */
+
+header {
+  padding-bottom: 80px;
+}
+
+.menu {
+  font-size: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 21px 0 65px 32px;
+  color: #5f5d5d;
+}
+
+nav {
+  height: 0%;
+  position: fixed;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(20, 19, 19, 0.9);
+  overflow-y: hidden;
+  z-index: 1500;
+  transition: 0.5s;
+}
+
+nav li {
+  position: relative;
+  left: -6px;
+  top: 120px;
+}
+
+.close {
+  position: relative;
+  top: -12px;
+  left: -290px;
+  font-size: 50px;
+  color: #eee7e7;
+  cursor: pointer;
+}
+
+.crazy-text {
+  background-image: url(img/text.jpg/800);
+}
+
+.text h1 {
+  font-size: 3.8vh;
+  font-weight: bolder;
+  margin-bottom: 55px;
+  /* background: linear-gradient(to right, #cf3a15 0%, #ff8324 50%, #cf1512 100%);  */
+  background-image: url(img/text.jpg);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text; 
+   -webkit-text-fill-color: transparent; 
+  color: transparent;
+ 
+
+}
+
+.text h2 {
+  font-size: 2.8vh;
+  font-weight: bolder;
+  color: #5f5d5d;
+}
+
+.text h3 {
+  font-weight: bolder;
+  font-size: 2.8vh;
+  color: #fc6209;
+  margin-bottom: 18px;
+  margin-top: 50px;
+}
+
+.text h4 {
+  margin-bottom: 90px;
+  color: #5f5d5d;
+}
+
+.text p {
+  margin-bottom: 45px;
+}
+
+
+/* end of first section */
+
+.program {
+  margin-top: 90px;
+  background-image: url('img/bck1.jpg');
+}
+
+.program hr {
+  color: red;
+  margin: 15px 290px 34px 290px;
+  border: 2px solid red;
+}
+
+.program-text h3 {
+  font-size: 2.6vh;
+}
+
+.program-text h5 {
+  font-size: 1.6vh;
+}
+
+.program-footer h4 {
+  font-size: 2.8vh;
+}
+
+.program-footer {
+  z-index: 1;
+}
+
+.program img {
+  width: auto;
+}
+
+.last {
+  background-color: #db3d13;
+}
+
+.bkg {
+  background-color: rgba(175, 171, 171, 0.3);
+}
+
+.line {
+  display: block;
+  align-items: center;
+  width: 20%;
+  border: 1px solid red;
+  margin: auto;
+}
+
+.images {
+  position: relative;
+  top: -20px;
+  left: 0;
+  z-index: -1;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  position: absolute;
+  top: 10px;
+  left: 22px;
+  z-index: 1500;
+}
+
+.description h4 {
+  font-size: 2.3vh;
+}
+
+.description h5 {
+  font-size: 1.8vh;
+}
+
+.description h6 {
+  font-size: 1.6vh;
+}
+
+.line2 {
+  display: block;
+  width: 10%;
+  border: 1px solid rgb(126, 124, 124);
+}
+
+
+/* #hidden {
+  display: none;
+} */
+
+
+/* .hide-btn {
+  border: 1px solid #c9bfbf;
+  width: 100%;
+  color: #5f5d5d
+}  */
+
+.dropdown-toggle {
+  width: 100%;
+  border: 1px solid #979595;
+  color: red;
+  background-color: #fff;
+}
+
+.drop-text {
+  color: #5f5d5d;
+}
+
+.close:hover {
+  color: #f1eeee;
+}
+
+.footer i {
+  margin-left: 50px;
+  font-size: 50px;
+  top: -10px;
+  left: -50px;
+}

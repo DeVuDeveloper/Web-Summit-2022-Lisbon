@@ -35,7 +35,7 @@
         <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
         <link rel="stylesheet" href="homepage.css" />
 
-        <title>Capstone</title>
+        <title>Capstone -Portal</title>
     </head>
 
   
@@ -71,7 +71,7 @@
                     <div class='text container-fluid'>
                         <h3 class='bg-gradient-success lato'>"Hello Sharing
                             World"</h4>
-                        <h1 class='coco mb-4 crazy-text'>CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
+                        <h1 class='coco mb-4'>CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
                         <p class="shadow-sm p-3 mb-5 bg-white rounded lato
                             greyer">
                             A joyful celebration in the value of openness and
@@ -183,14 +183,14 @@
                         </h3>
                         <span class='line mb-5'></span>
                     </div>
-                    <div class=' card-wraper row align-items-center py-3 mb-5'>
+                    <div class=' card-wraper row align-items-center mb-4'>
                         <div class="images col-4 ">
                             <img class="image1 img-fluid"
                                 src="img/speaker-background.jpg" alt=""
                                 width=70% height=80%>
-                            <img class="image2  "
+                            <img class="image2 img-responsive "
                                 src="img/speaker1.jpg" alt='' width=80%
-                                height=150%>
+                                height=140%>
 
                         </div>
                         <div class="description col-8 no-gutters">
@@ -205,17 +205,17 @@
                                 commons-based peer production and published
                                 his
                                 seminal book. The Wealth of Networks in 2006</h6>
-                                <span class='line2'></span>
                         </div>
                     </div>
-                    <div class=' card-wraper row align-items-center py-3 mb-5'>
-                        <div class="images col-4 ">
+
+                    <div class=' card-wraper row align-items-center mb-4'>
+                        <div class="images col-4 my-4 ">
                             <img class="image1 img-fluid"
                                 src="img/speaker-background.jpg" alt=""
                                 width=70% height=80%>
-                            <img class="image2  "
+                            <img class="image2 img-responsive "
                                 src="img/speaker1.jpg" alt='' width=80%
-                                height=150%>
+                                height=140%>
 
                         </div>
                         <div class="description col-8 no-gutters">
@@ -230,116 +230,114 @@
                                 commons-based peer production and published
                                 his
                                 seminal book. The Wealth of Networks in 2006</h6>
-                                <span class='line2'></span>
                         </div>
                     </div>
+                   
+
                     <!-- <button class='hide-btn lato mb-4 py-2' onclick="hideShow()">More</button> -->
                     <div class="dropdown border-0 p-0 m-0">
                         <button class="dropdown-btn dropdown-toggle py-3 mb-5" type="button"
                          data-toggle="dropdown"><span class='drop-text fw-bold'>MORE</span></button>
                       <div class="dropdown-menu border-0 p-0 m-0">  
-                        <div class=' card-wraper row align-items-center py-3 mb-5'>
-                            <div class="images col-4 ">
-                                <img class="image1 img-fluid"
-                                    src="img/speaker-background.jpg" alt=""
-                                    width=70% height=80%>
-                                <img class="image2  "
-                                    src="img/speaker1.jpg" alt='' width=80%
-                                    height=150%>
-    
-                            </div>
-                            <div class="description col-8 no-gutters">
-                                <h4>Yochai Benkler</h4>
-                                <h5 class='red fst-italic fw-bold'>Berlkman
-                                    Professor of
-                                    Enterpreneurial Legal Studies of Harvard Law
-                                    School
-                                </h5>
-                                <h6 class='lato greyer py-1 me-4 fw-bold overflow-wrap '>Benkler
-                                    studies
-                                    commons-based peer production and published
-                                    his
-                                    seminal book. The Wealth of Networks in 2006</h6>
-                                    <span class='line2'></span>
-                            </div>
-                        </div>
+                    <div class=' card-wraper row align-items-center mb-4'>
+                        <div class="images col-4 my-4 ">
+                            <img class="image1 img-fluid"
+                                src="img/speaker-background.jpg" alt=""
+                                width=70% height=80%>
+                            <img class="image2 img-responsive "
+                                src="img/speaker1.jpg" alt='' width=80%
+                                height=140%>
 
-                        <div class=' card-wraper row align-items-center py-3 mb-5'>
-                            <div class="images col-4 ">
-                                <img class="image1 img-fluid"
-                                    src="img/speaker-background.jpg" alt=""
-                                    width=70% height=80%>
-                                <img class="image2  "
-                                    src="img/speaker1.jpg" alt='' width=80%
-                                    height=150%>
-    
-                            </div>
-                            <div class="description col-8 no-gutters">
-                                <h4>Yochai Benkler</h4>
-                                <h5 class='red fst-italic fw-bold'>Berlkman
-                                    Professor of
-                                    Enterpreneurial Legal Studies of Harvard Law
-                                    School
-                                </h5>
-                                <h6 class='lato greyer py-1 me-4 fw-bold overflow-wrap '>Benkler
-                                    studies
-                                    commons-based peer production and published
-                                    his
-                                    seminal book. The Wealth of Networks in 2006</h6>
-                                    <span class='line2'></span>
-                            </div>
                         </div>
-                        <div class=' card-wraper row align-items-center py-3 mb-5'>
-                            <div class="images col-4 ">
-                                <img class="image1 img-fluid"
-                                    src="img/speaker-background.jpg" alt=""
-                                    width=70% height=80%>
-                                <img class="image2  "
-                                    src="img/speaker1.jpg" alt='' width=80%
-                                    height=150%>
-    
-                            </div>
-                            <div class="description col-8 no-gutters">
-                                <h4>Yochai Benkler</h4>
-                                <h5 class='red fst-italic fw-bold'>Berlkman
-                                    Professor of
-                                    Enterpreneurial Legal Studies of Harvard Law
-                                    School
-                                </h5>
-                                <h6 class='lato greyer py-1 me-4 fw-bold overflow-wrap '>Benkler
-                                    studies
-                                    commons-based peer production and published
-                                    his
-                                    seminal book. The Wealth of Networks in 2006</h6>
-                                    <span class='line2'></span>
-                            </div>
+                        <div class="description col-8 no-gutters">
+                            <h4>Yochai Benkler</h4>
+                            <h5 class='red fst-italic fw-bold'>Berlkman
+                                Professor of
+                                Enterpreneurial Legal Studies of Harvard Law
+                                School
+                            </h5>
+                            <h6 class='lato greyer py-1 me-4 fw-bold overflow-wrap '>Benkler
+                                studies
+                                commons-based peer production and published
+                                his
+                                seminal book. The Wealth of Networks in 2006</h6>
                         </div>
+                    </div>
 
-                        <div class=' card-wraper row align-items-center py-3 mb-5'>
-                            <div class="images col-4 ">
-                                <img class="image1 img-fluid"
-                                    src="img/speaker-background.jpg" alt=""
-                                    width=70% height=80%>
-                                <img class="image2  "
-                                    src="img/speaker1.jpg" alt='' width=80%
-                                    height=150%>
-    
-                            </div>
-                            <div class="description col-8 no-gutters">
-                                <h4>Yochai Benkler</h4>
-                                <h5 class='red fst-italic fw-bold'>Berlkman
-                                    Professor of
-                                    Enterpreneurial Legal Studies of Harvard Law
-                                    School
-                                </h5>
-                                <h6 class='lato greyer py-1 me-4 fw-bold overflow-wrap '>Benkler
-                                    studies
-                                    commons-based peer production and published
-                                    his
-                                    seminal book. The Wealth of Networks in 2006</h6>
-                                    <span class='line2'></span>
-                            </div>
+                    <div class=' card-wraper row align-items-center mb-4'>
+                        <div class="images col-4 my-4 ">
+                            <img class="image1 img-fluid"
+                                src="img/speaker-background.jpg" alt=""
+                                width=70% height=80%>
+                            <img class="image2 img-responsive "
+                                src="img/speaker1.jpg" alt='' width=80%
+                                height=140%>
+
                         </div>
+                        <div class="description col-8 no-gutters">
+                            <h4>Yochai Benkler</h4>
+                            <h5 class='red fst-italic fw-bold'>Berlkman
+                                Professor of
+                                Enterpreneurial Legal Studies of Harvard Law
+                                School
+                            </h5>
+                            <h6 class='lato greyer py-1 me-4 fw-bold overflow-wrap '>Benkler
+                                studies
+                                commons-based peer production and published
+                                his
+                                seminal book. The Wealth of Networks in 2006</h6>
+                        </div>
+                    </div>
+
+                    <div class=' card-wraper row align-items-center mb-4'>
+                        <div class="images col-4 my-4 ">
+                            <img class="image1 img-fluid"
+                                src="img/speaker-background.jpg" alt=""
+                                width=70% height=80%>
+                            <img class="image2 img-responsive "
+                                src="img/speaker1.jpg" alt='' width=80%
+                                height=140%>
+
+                        </div>
+                        <div class="description col-8 no-gutters">
+                            <h4>Yochai Benkler</h4>
+                            <h5 class='red fst-italic fw-bold'>Berlkman
+                                Professor of
+                                Enterpreneurial Legal Studies of Harvard Law
+                                School
+                            </h5>
+                            <h6 class='lato greyer py-1 me-4 fw-bold overflow-wrap '>Benkler
+                                studies
+                                commons-based peer production and published
+                                his
+                                seminal book. The Wealth of Networks in 2006</h6>
+                        </div>
+                    </div>
+
+                <div class=' card-wraper row align-items-center mb-4'>
+                    <div class="images col-4 my-4 ">
+                        <img class="image1 img-fluid"
+                            src="img/speaker-background.jpg" alt=""
+                            width=70% height=80%>
+                        <img class="image2 img-responsive "
+                            src="img/speaker1.jpg" alt='' width=80%
+                            height=140%>
+
+                    </div>
+                    <div class="description col-8 no-gutters">
+                        <h4>Yochai Benkler</h4>
+                        <h5 class='red fst-italic fw-bold'>Berlkman
+                            Professor of
+                            Enterpreneurial Legal Studies of Harvard Law
+                            School
+                        </h5>
+                        <h6 class='lato greyer py-1 me-4 fw-bold overflow-wrap '>Benkler
+                            studies
+                            commons-based peer production and published
+                            his
+                            seminal book. The Wealth of Networks in 2006</h6>
+                    </div>
+                </div>
             </div>
                     </div>
 
