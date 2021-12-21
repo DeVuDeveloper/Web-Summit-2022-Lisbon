@@ -43,7 +43,7 @@ main {
 }
 
 
-/* .wraper {
+ .wraper {
   position: relative;
   background-repeat: no-repeat;
 }
@@ -61,7 +61,7 @@ main {
   right: 0;
   position: absolute;
   z-index: -1;
-} */
+} 
 
 header {
   padding-bottom: 80px;
@@ -84,7 +84,8 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(20, 19, 19, 0.9);
+  /* background-color: rgba(73, 177, 224, 0.9); */
+  background-image: url(img/navbg.jpg);
   overflow-y: hidden;
   z-index: 1500;
   transition: 0.5s;
@@ -92,16 +93,25 @@ nav {
 
 nav li {
   position: relative;
-  left: -6px;
+  left: -9px;
   top: 120px;
 }
 
+nav li a {
+  color: #f5f2f0
+}
+
+.nav-logo {
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
 .close {
   position: relative;
   top: -12px;
   left: -290px;
   font-size: 50px;
-  color: #eee7e7;
+  color: #141313;
   cursor: pointer;
 }
 

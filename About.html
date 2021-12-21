@@ -51,23 +51,27 @@
                     <nav id='navbar' class='container-fluid'>
                       
                         <ul class='m-0 p-0'>
-                            <a class="close text-decoration-none fw-lighter" onclick="closeMe()">&times;</a>
+                            <a class="close text-decoration-none fw-bolder" onclick="closeMe()">&times;</a>
 
-                                <li class="h2 nav-link bg-secondary
+                                <li class="h2 nav-link 
                                 text-center"><a
-                                    class='text-white text-decoration-none'
+                                    class='text text-decoration-none lato fw-bolder fst-italic ' onclick="closeMe()"
                                     href="homepage.html">Homepage</a></li>
                                     <br>
-                                <li class="h2 nav-link bg-secondary
+                                <li class="h2 nav-link 
                                     text-center"><a
-                                        class='text-white text-decoration-none'
-                                        href="#">Program</a></li>
-                                <li class="h2 nav-link bg-secondary
+                                        class='text lato fw-bolder fst-italic text-decoration-none' onclick="closeMe()"
+                                        href="#past">Past Summits</a></li>
+                                <li class="h2 nav-link 
                                     text-center"><a
-                                        class='text-white text-decoration-none'
-                                        href="#">Featured Speakers</a></li>
+                                        class='text lato fw-bolder fst-italic text-decoration-none' onclick="closeMe()"
+                                        href="#partners">Partners</a></li>
+                                     
                             </ul>
+                            <img class='img-fluid col-5 mt-5 block-center nav-logo' src="img/logo.png" alt="">
+                            <span class='line3 my-3'></span>
                         </nav>
+                        
                     </header>
 
                     <div class='text container-fluid text-center'>
@@ -80,7 +84,7 @@
                              The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
                               as opposed to using 'Content here, content here', making it look like readable English.
                              </p>
-                        <!-- <h2 class='coco'>2015.10.15(THU) ~ 16(FRI)</h2> -->
+                        
                         <p class=" pt-3 mb-0 mx-3 lato
                         greyer">Please contact us per Email for any further questions about CC Global Summit 2015!
                            </p>
@@ -95,30 +99,41 @@
                 <section class="container-fluid logo-container text-center mt-5 text-justify">
                     <h4 class='past lato fw-bolder text-dark'>Creative Commons<br> GlobalSummit 2015 Logo</h4>
                     <span class="line my-3"></span>
+                    <img class='img-fluid col-5 my-4' src="img/logo.png" alt="">
                     <p class="lato greyer mt-2">The logo of CC GLobal Summit 2015 was decided through logo competition from 8.June to 7.July</p>
                     <img class='logo' src="" alt="">
 
                 </section>
 
-                <section class='past lato greyer text-center'>
+                <!-- logo -->
+
+                <section id='past' class='past lato greyer text-center'>
                  <h4 class='lato greyer'>See the past CC global Summits</h4>
                  <span class='line my-3'></span>
                  <p class="lato greyer mx-5">Take a look at the last two CC Global Summits which took place in Buenos Aires and in Warshaw </p>
                  <div class="images row py-4 column justify-content-center p-5" >
+                     <div class="text-in">
                  <img class=' img1  img-fluid max-width=50% height=50% px-4 mb-4' src="img/summit1.jpg" alt="">
+                 <h2 class="lato">2020</h2>
+                 <h6 class="lato">CC Global Summit 2020 in Buenos Aires</h6>
+                </div>
+                <div class="text-in2">
                  <img class=' img2 img-fluid max-width=50% height=50% px-4' src="img/summit2.png" alt="">
-                 <!-- <div class="img1"></div>
-                 <div class="img2"></div> -->
+                 <h2 class="lato">2019</h2>
+                 <h6 class="lato">CC Global Summit 2020 in Warsaw</h6>
+                </div>
                 </div>
                 </section>
 
-                <section class='sponsors-container white mx-2 pb-4'>
+              <!-- last summits -->
+
+                <section id='partners' class='sponsors-container white mx-2 pb-4'>
                  <div class="sponsors text-center">
                     <h3 class='pt-4'>Partner</h3>
                     <span class='line mb-3'></span>
                     <div class="spn-columns  column container">
                         <div class="row spn1 mb-2 mx-0 px-0" >
-                            <h3 class=' partner1 col-4 lato fw-bolder fst-italic fw-bolder m-0 pt-2'>microsoft</h3>
+                            <h3 class=' partner1 col-4 lato fw-bolder fst-italic fw-bolder m-0 pt-'>microsoft</h3>
                             <h3 class='partner2 col-4 lato pe-3'>Google</h3>
                             <h3 class='partner3 col-4 coco fw-bolder  m-0 pt-2 '>Facebook</h3>
                         </div>
@@ -132,14 +147,16 @@
                  </div>
                 </section>
 
+                <!-- partners -->
+
                 <section class="footer my-5 row m-0 text-align-center justify-content-center">
-                <h5 class="col-4 lato fw-bolder ms-5 mb-5"><i class="icon2 fab fa-apple me-1"></i>creative<br>commons korea</h5>
+                <h5 class="col-4 lato fw-bolder ms-5 mb-5"><i class="fas fa-envelope-square me-2"></i>creative<br>commons korea</h5>
                  <p class="col-5 lato me-3 col-5 
                  greyer">2021 Creative Commons Korea.</p>
                 </section>
 
                 
-
+                      <!-- footer end -->
 
 
 

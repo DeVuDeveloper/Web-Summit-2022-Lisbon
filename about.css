@@ -83,7 +83,8 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(20, 19, 19, 0.9);
+  /* background-color: rgba(73, 177, 224, 0.9); */
+  background-image: url(img/navbg.jpg);
   overflow-y: hidden;
   z-index: 1500;
   transition: 0.5s;
@@ -91,16 +92,38 @@ nav {
 
 nav li {
   position: relative;
-  left: -6px;
+  left: -9px;
   top: 120px;
 }
 
+nav li a {
+  color: #f1eeeb
+}
+
+.nav-logo {
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+
+.line3 {
+   position: relative;
+    display: block;
+    align-items: center;
+    width: 20%;
+    border: 2px solid #e6e2e1;
+    margin: auto;
+    top: 44%;
+  
+}
+
 .close {
+  display: block;
   position: relative;
   top: -11px;
   left: -307px;
   font-size: 50px;
-  color: #eee7e7;
+  color: #131212;
   cursor: pointer;
 }
 
@@ -184,14 +207,14 @@ nav li {
     color: white;
   }
 
-  .text-in h2 {
+  .text-in2 h2 {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-  .text-in h6 {
+  .text-in2 h6 {
     position: absolute;
     top: 50%;
     left: 50%;

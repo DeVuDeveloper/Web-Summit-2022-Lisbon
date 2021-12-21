@@ -49,22 +49,24 @@
                     <nav id='navbar' class='container-fluid'>
                       
                         <ul class='m-0 p-0'>
-                            <a class="close text-decoration-none fw-lighter" onclick="closeMe()">&times;</a>
+                            <a class="close text-decoration-none " onclick="closeMe()">&times;</a>
 
-                                <li class="h2 nav-link bg-secondary
+                                <li class="h2 nav-link 
                                 text-center"><a
-                                    class='text-white text-decoration-none'
+                                    class='text text-decoration-none lato fw-bolder fst-italic' onclick="closeMe()"
                                     href="about.html">About</a></li>
                                     <br>
-                                <li class="h2 nav-link bg-secondary
+                                <li class="h2 nav-link 
                                     text-center"><a
-                                        class='text-white text-decoration-none'
-                                        href="#">Program</a></li>
-                                <li class="h2 nav-link bg-secondary
+                                        class='text lato fw-bolder text-decoration-none fst-italic' onclick="closeMe()"
+                                        href="#program">Program</a></li>
+                                <li class="h2 nav-link 
                                     text-center"><a
-                                        class='text-white text-decoration-none'
-                                        href="#">Featured Speakers</a></li>
+                                        class='text lato fw-bolder text-decoration-none fst-italic' onclick="closeMe()"
+                                        href="#speakers">Featured Speakers</a></li>
+                                     
                             </ul>
+                            <img class='img-fluid col-5 mt-5 block-center nav-logo' src="img/logo.png" alt="">
                         </nav>
                     </header>
 
@@ -87,7 +89,7 @@
 
                 <!-- end of first section -->
 
-                <section class='container-fluid program m-0 p-0'>
+                <section id='program' class='container-fluid program m-0 p-0'>
                     <h3 class='lato white col-sm text-center pt-5'>Main Program</h3>
                    <span class="line mb-5"></span>
                     <div class="column container py-1">
@@ -175,7 +177,7 @@
                 </section>
                 <!-- end of second section -->
 
-                <section class="speakers container-fluid px-4 m-0">
+                <section id='speakers' class="speakers container-fluid px-4 m-0">
                     <div class="container ">
                         <h3 class='lato  text-center fw-bold
                             pt-5'>Featured

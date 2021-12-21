@@ -5,6 +5,8 @@ function closeMe () {
   document.getElementById('navbar').style.height = '0%'
 }
 
+
+
 // function hideShow () {
 //   let hiddenElement = document.getElementById('hidden')
 //   if (hiddenElement.style.display === 'none') {
