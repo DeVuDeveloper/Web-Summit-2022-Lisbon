@@ -1,24 +1,24 @@
-@import url('http://fonts.cdnfonts.com/css/cocogoose');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap");
 * {
   padding: 0;
   margin: 0;
 }
 
-main {
+/* .all {
   height: 100vh;
-  width: 100%;
-}
-
+  width: 1440px;
+  margin: auto;
+} */
 
 /* font */
 
 .lato {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .coco {
-  font-family: 'Cocogoose', sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 
 .orange {
@@ -42,16 +42,15 @@ main {
   color: red;
 }
 
-
- .wraper {
+.wraper {
   position: relative;
   background-repeat: no-repeat;
 }
 
 .wraper::after {
-  content: '';
+  content: "";
   display: block;
-  background-image: url('img/bkg.jpg');
+  background-image: url("img/bkg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.7;
@@ -61,7 +60,7 @@ main {
   right: 0;
   position: absolute;
   z-index: -1;
-} 
+}
 
 header {
   padding-bottom: 80px;
@@ -98,7 +97,7 @@ nav li {
 }
 
 nav li a {
-  color: #f5f2f0
+  color: #f1eeeb
 }
 
 .nav-logo {
@@ -106,14 +105,28 @@ nav li a {
   top: 25%;
   left: 25%;
 }
+
+.line3 {
+   position: relative;
+    display: block;
+    align-items: center;
+    width: 20%;
+    border: 2px solid #e6e2e1;
+    margin: auto;
+    top: 35%;
+    bottom:20px;
+}
+
 .close {
+  display: block;
   position: relative;
-  top: -12px;
-  left: -290px;
+  top: 2px;
+  left: 32px;
   font-size: 50px;
-  color: #141313;
+  color: #131212;
   cursor: pointer;
 }
+
 
 .crazy-text {
   background-image: url(img/text.jpg/800);
@@ -127,11 +140,9 @@ nav li a {
   background-image: url(img/text.jpg);
   background-size: cover;
   background-clip: text;
-  -webkit-background-clip: text; 
-   -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
- 
-
 }
 
 .text h2 {
@@ -157,12 +168,11 @@ nav li a {
   margin-bottom: 45px;
 }
 
-
 /* end of first section */
 
 .program {
   margin-top: 90px;
-  background-image: url('img/bck1.jpg');
+  background-image: url("img/bck1.jpg");
 }
 
 .program hr {
@@ -245,11 +255,9 @@ nav li a {
   border: 1px solid rgb(126, 124, 124);
 }
 
-
 /* #hidden {
   display: none;
 } */
-
 
 /* .hide-btn {
   border: 1px solid #c9bfbf;
@@ -277,4 +285,77 @@ nav li a {
   font-size: 50px;
   top: -10px;
   left: -50px;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .black-nav {
+    padding-right: 259px;
+  }
+  .logo-home {
+    margin-left: 255px;
+  }
+  .white-nav ul {
+    margin-left: 185px;
+  }
+  .white-nav li {
+    margin-right: 29px;
+  }
+  .text {
+    margin: 161px 540px 0 255px;
+  }
+  .wrap-program {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  .program-text {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    justify-items: center;
+    width: 25%;
+    height: 10%;
+    padding: 0;
+    margin-right: 20px;
+  }
+ 
+  .program-text h3 {
+    position: relative;
+    top: 5px;
+    margin: 0;
+    padding: 0;
+    left: -20px;
+    font-style: "Lato", sans-serif;
+  }
+  .program-text h5 {
+    position: relative;
+    top: 40px;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  .img1 {
+    position: relative;
+  }
+  .program-footer {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .black-nav {
+    display: none;
+  }
+
+  .navbar-light {
+    display: none;
+  }
+
+  .for-hide {
+    display: none;
+  }
+
 }
