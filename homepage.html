@@ -63,7 +63,7 @@
                             <a class="nav-link ms-2 text-white" href="#">English</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-1 text-white" href="#">My page</a>
+                            <a class="nav-link ms-1 text-white" href="#">Login</a>
                         </li>
                         <li class="nav-item ms-1">
                             <a class="nav-link text-white" href="#">Logout</a>
@@ -76,10 +76,13 @@
                 <div class="container-fluid">
 
                     <div class=" white-nav collapse navbar-collapse p-0 m-0">
-                        <img class=" img-fluid logo-home col-1" src="img/logo.png" alt="">
+                        
+                     <img class=" img-fluid logo-home col-1" src="img/logo.png" alt="">
+                    
+                  
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active lato text-danger" aria-current="page" href="#">About</a>
+                                <a class="nav-link active lato text-danger" aria-current="page" href="about.html">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link lato greyer fw-bolder" href="#">Program</a>
@@ -189,6 +192,7 @@
         </section>
         <!-- end of second section -->
 
+       
         <section id='speakers' class="speakers container-fluid px-4 m-0">
             <div class="container ">
                 <h3 class='lato  text-center fw-bold
@@ -224,18 +228,14 @@
                             <h5 class='red fst-italic fw-bold'>Berlkman Professor of Enterpreneurial Legal Studies of Harvard Law School
                             </h5>
                             <h6 class='lato greyer py-1 me-4 fw-bold overflow-wrap '>Benkler studies commons-based peer production and published his seminal book. The Wealth of Networks in 2006</h6>
-                            <span class='line2'></span>
+                            
+                           
                         </div>
                     </div>
+                     
 
-                    <!-- <button class='hide-btn lato mb-4 py-2' onclick="hideShow()">More</button> -->
-
-                    <!-- <button class="dropdown-btn dropdown-toggle py-2 mb-5" type="button"
-                         data-toggle="dropdown"><span class='drop-text fw-bold'>MORE</span></button> -->
-
-                     <!-- <div class=" dropdown-menu dropdown-hide border-0 p-0 m-0"> 
-                    </div> -->
-
+                    
+                            
                     <div class=' card-wraper row align-items-center py-3 mb-5'>
                         <div class="images col-4 ">
                             <img class="image1 img-fluid" src="img/speaker-background.jpg" alt="" width=70% height=80%>
@@ -252,8 +252,12 @@
                     </div>
 
                 </div>
-
+              
+              
                 <div class="columns-row col-xl-4 mt-1">
+                 
+                    <span class="hide-btn"><a onclick='hideShow()' href="#">MORE</a></span>
+                    <div id='hidden' class="hide-this">
                     <div class=' card-wraper row align-items-center py-3 mb-5'>
                         <div class="images col-4 ">
                             <img class="image1 img-fluid" src="img/speaker-background.jpg" alt="" width=70% height=80%>
@@ -298,10 +302,10 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             </div>
-
+            </div>
+       
         </section>
         <!-- partners -->
         <section id='partners' class='sponsors-container white mx-2 pb-3'>
@@ -323,6 +327,7 @@
                 </div>
 
             </div>
+       
         </section>
 
         <!-- partners -->
@@ -343,6 +348,8 @@
                   </p>
                 </div>
         </section>
+    </div>
+
 
     </main>
 
