@@ -330,6 +330,14 @@ nav li a {
     display: block !important;
   }
 
+  .fifth {
+    transform: translate(-100%, 20px);
+  }
+
+  .sixth {
+    transform: translate(0%, -220px);
+  }
+
   .black-nav {
     padding-right: 259px;
   }
@@ -413,6 +421,8 @@ nav li a {
 
   .sponsors-container {
     padding: 0px;
+    position: relative;
+    top: -190px;
   }
 
   .spn-columns {
@@ -452,7 +462,11 @@ nav li a {
   /* footer */
 
   .footer {
+
     padding: 10px 0;
+    position: relative;
+    top: -190px;
+    
   }
 
   .mail {
