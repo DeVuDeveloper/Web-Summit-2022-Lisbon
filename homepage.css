@@ -276,15 +276,64 @@ nav li a {
   color: #5f5d5d;
 }
 
-.close:hover {
-  color: #f1eeee;
-}
 
-.footer i {
+
+/* .footer i {
   margin-left: 50px;
   font-size: 50px;
   top: -10px;
   left: -50px;
+} */
+
+  /* partner */
+
+.sponsors-container {
+      background: #222222;
+    }
+
+ .partner1 {
+     font-size: 28px;
+     color: #c9c2c2
+ }
+
+ .partner2 {
+   font-size: 26px;
+   background: -webkit-linear-gradient(#eee, rgb(116, 113, 113));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+ }
+
+ .partner3 {
+   font-size: 20px;
+   margin-left: -10px;
+   margin-top: 7px;
+   color: #a19f9f;
+ }
+
+ .partner4 {
+    font-size: 20px;
+    color: #a19f9f;
+  }
+
+  .partner5 {
+    font-size: 20px;
+    color: #a19f9f;
+  }
+
+  /* footer */
+
+ .footer p {
+    font-size: 1.7vh;
+  }
+
+.mail-txt {
+    font-size: 2.1vh;
+  }
+
+
+.close:hover {
+  color: #f1eeee;
 }
 
 @media (min-width: 768px) {
@@ -312,8 +361,24 @@ nav li a {
     margin-right: 29px;
   }
   .text {
-    margin: 161px 540px 0 255px;
+   margin: 134px 442px 0 212px;
+   padding-bottom: 100px;
+   
   }
+
+  .text h1 {
+    font-size: 53px;
+  }
+
+  .text h2 {
+    font-size: 34px;
+  }
+
+  .text p{
+    margin-right: 200px;
+  }
+
+  
   .wrap-program {
     display: flex;
     padding: 0;
@@ -338,7 +403,8 @@ nav li a {
     left: -20px;
     font-style: "Lato", sans-serif;
   }
-  .program-text h5 {
+
+ .program-text h5 {
     position: relative;
     top: 40px;
     width: 80%;
@@ -369,6 +435,72 @@ nav li a {
     margin-left: 240px;
 
   }
+
+  .sponsors-container {
+    padding: 0px;
+  }
+
+  .spn-columns {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+   
+  }
+  .spn-columns h3 {
+    font-size: 30px;
+    padding: 0;
+    margin-left: 0px;
+   }
+
+   .pr1 {
+     position: relative;
+     left: 303px;
+   }
+
+   .pr2 {
+     position: relative;
+     right: 180px;
+     bottom: 7px;
+  }
+
+  .partner2 {
+    position: relative;
+    right: 3px;
+    top: 4px;
+  }
+
+  .partner1 {
+    position: relative;
+    right: 3px;
+    top: 4px;
+  }
+
+  .mail {
+    position: relative;
+    left: 200px;
+  }
+
+  .mail-icon {
+  position: relative;
+  left: 65px
+  }
+
+  .footer-txt  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer p {
+  
+  }
+
+  .footerp-hide {
+    margin-top: -30px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -386,8 +518,11 @@ nav li a {
 
   .card-wraper {
     margin-top: -55px;
-
-    
   }
+
+  .footerp-hide {
+    display: none;
+  }
+
 
 }
