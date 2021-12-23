@@ -260,6 +260,7 @@ nav li a {
 
 #hide-cards {
  visibility: hidden;
+ height: 0;
 }
 
 .hide-btn {
@@ -338,6 +339,7 @@ nav li a {
 
   #hide-cards {
     visibility: visible !important;
+    height: 100% !important;
   }
 
   .black-nav {
