@@ -328,7 +328,7 @@ nav li a {
   color: #f1eeee;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .menu {
     display: none;
   }
@@ -342,17 +342,21 @@ nav li a {
     height: 100% !important;
   }
 
-  .black-nav {
-    padding-right: 259px;
+   .black-nav {
+    padding-right: 50px;
   }
+
   .logo-home {
-    margin-left: 255px;
+    position: relative;
+    left: 210px;
+    width: 18%;
+    height: auto;
+    bottom: 5px;
   }
-  .white-nav ul {
-    margin-left: 185px;
-  }
+
   .white-nav li {
-    margin-right: 29px;
+    margin-top: 10px;
+    height: auto;
   }
 
   .text h1 {
@@ -366,6 +370,8 @@ nav li a {
   .text p {
     margin-right: 200px;
   }
+
+   /* first end */
 
   .wrap-program {
     display: flex;
@@ -419,32 +425,28 @@ nav li a {
     border: 3px solid #fff;
   }
 
-  .columns-row1 {
-    
-  }
-
   .speaker-txt  {
     bottom: 0;
   }
 
-  .sponsors-container {
+  /* end speakers */
+
+  /* .sponsors-container {
     padding: 0;
     position: relative;
     margin-top: 50px;
-  }
-
+  } */
+/* 
   .spn-columns {
     display: flex;
     align-items: center;
-    justify-content: center;
-  }
-  .spn-columns h3 {
+    justify-content: flex-end;
+  } */
+   .spn-columns h3 {
     font-size: 30px;
-    padding: 0;
-    margin-left: 0px;
-  }
+  } 
 
-  .pr1 {
+  /* .pr1 {
     position: relative;
     left: 303px;
   }
@@ -465,28 +467,23 @@ nav li a {
     position: relative;
     right: 3px;
     top: 4px;
-  }
+  } */
 
   /* footer */
 
-  .footer {
-
-    padding: 10px 0;
+ .mail {
     position: relative;
-    /* top: -190px; */
-    
+    left: 130px;
   }
-
-  .mail {
-    position: relative;
-    left: 200px;
-  }
-
   .mail-icon {
+    color: rgb(49, 47, 47);
     position: relative;
-    left: 65px;
+    left: 35px;
   }
-
+  .footer {
+    
+    padding: 10px 0;
+  }
   .footer-txt {
     display: flex;
     flex-direction: column;
@@ -494,13 +491,19 @@ nav li a {
     margin: 0;
     padding: 0;
   }
-
+  .footer p {
+    color: rgb(90, 87, 87);
+  }
+  .footer h6 {
+    font-size: 24px;
+    color: rgb(29, 28, 28);
+  }
   .footerp-hide {
     margin-top: -30px;
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .black-nav {
     display: none;
   }
@@ -509,15 +512,151 @@ nav li a {
     display: none;
   }
 
+  
+
   .for-hide {
     display: none;
   }
 
   .card-wraper {
     margin-top: -55px;
+    margin-bottom: -30px;
   }
 
   .footerp-hide {
     display: none;
   }
 }
+
+@media only screen and (max-width: 991.8px) and  (min-width: 768px) {
+  .mail { 
+    left: 50px;
+  }
+  .mail-icon {
+    left: 30px;
+  }
+
+  .program-text h3 {
+    position: relative;
+    top: 5px;
+    margin: 0;
+    padding: 0;
+    left: -20px;
+    font-style: "Lato", sans-serif;
+  }
+
+     .program-text {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    justify-items: center;
+    width: 32%;
+    height: 250px;
+    padding: 0;
+    margin-right: 20px;
+     
+  }
+
+  .wrap-program {
+    margin-left: 20px;
+    
+  }
+
+   /* .program-text h5 {
+    position: relative;
+    top: 50px;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    color: white;
+     }*/
+
+     .sponsors-container {
+      padding: 0;
+      position: relative;
+      margin-top: 50px;
+    }
+  
+    .spn-columns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .spn-columns h3 {
+      font-size: 30px;
+      padding: 0;
+      margin-left: 0px;
+    }
+  
+    /* .pr1 {
+      position: relative;
+      left: 20px;
+    }
+  
+    .pr2 {
+      position: relative;
+      right: 2px;
+      bottom: 7px;
+    }
+
+    .partner3 {
+      position: relative;
+      right: -150px;
+      top: 4px;
+    }
+  
+    .partner2 {
+      position: relative;
+      right: -100px;
+      top: 4px;
+    }
+  
+    .partner1 {
+      position: relative;
+      right: 0px;
+      top: 4px;
+    } */
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .logo-home {
+    
+    left: 210px;
+    width: 30%;
+    height: auto;
+    bottom: 5px;
+  }
+  .images {
+    position: relative;
+    top: 10px;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .image2 {
+    position: absolute;
+    top: 10px;
+    left: 22px;
+    z-index: 1500;
+  }
+
+  .card-wraper {
+    margin-bottom: 30px;
+}
+
+  .columns-row1 {
+    margin-bottom: 30px;
+  }
+  
+
+
+   }
+
+
