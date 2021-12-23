@@ -208,12 +208,21 @@ nav li a {
   width: 20%;
   border: 1px solid #db3d13;
   margin: auto;
+
+  
+}
+
+/* program section end */
+.speaker-txt  {
+  position: relative;
+  bottom: 15px;
 }
 
 .images {
   position: relative;
-  top: -39px;
+  top: 10px;
   left: 0;
+  height: 100%;
   z-index: -1;
 }
 
@@ -244,12 +253,13 @@ nav li a {
 
 .line2 {
   display: block;
+  
   width: 10%;
   border: 1px solid rgb(126, 124, 124);
 }
 
-#hidden {
-  display: none;
+#hide-cards {
+ visibility: hidden;
 }
 
 .hide-btn {
@@ -326,16 +336,8 @@ nav li a {
     display: none;
   }
 
-  #hidden {
-    display: block !important;
-  }
-
-  .fifth {
-    transform: translate(-100%, 20px);
-  }
-
-  .sixth {
-    transform: translate(0%, -220px);
+  #hide-cards {
+    visibility: visible !important;
   }
 
   .black-nav {
@@ -416,13 +418,17 @@ nav li a {
   }
 
   .columns-row1 {
-    margin-left: 240px;
+    
+  }
+
+  .speaker-txt  {
+    bottom: 0;
   }
 
   .sponsors-container {
-    padding: 0px;
+    padding: 0;
     position: relative;
-    top: -190px;
+    margin-top: 50px;
   }
 
   .spn-columns {
@@ -465,7 +471,7 @@ nav li a {
 
     padding: 10px 0;
     position: relative;
-    top: -190px;
+    /* top: -190px; */
     
   }
 

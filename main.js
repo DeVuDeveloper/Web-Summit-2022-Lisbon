@@ -8,10 +8,12 @@ function closeMe () {
 
 
  function hideShow () {
-  let hiddenElement = document.getElementById('hidden')
- if(hiddenElement.style.display === 'none') {
-     hiddenElement.style.display = 'block'
-   } else {
-     hiddenElement.style.display = 'none'
-   }
- }
+  let hiddenElement = document.querySelectorAll('#hide-cards');
+  hiddenElement.forEach((item) =>{
+    if(item.style.visibility === 'hidden') {
+     item.style.visibility = 'visible'
+    } else {
+      item.style.visibility = 'hidden'
+    }
+  });
+}
