@@ -3,7 +3,7 @@ const closeMe = document.querySelectorAll('.close');
 const menuMobile = document.querySelector('#navbar');
 
 openMe.addEventListener('click', () => {
-menuMobile.style.height = '100%';
+  menuMobile.style.height = '100%';
 });
 
 closeMe.forEach((element) => {
@@ -17,7 +17,7 @@ const hideBtn = document.querySelector('.hide-btn a');
 
 hideBtn.addEventListener('click', () => {
   hiddenElement.forEach((item) => {
-    if(item.style.visibility === 'hidden') {          
+    if (item.style.visibility === 'hidden') {
       item.style.visibility = 'visible';
       item.style.height = '100%';
       document.querySelector('.hide-btn a').textContent = 'LESS';
