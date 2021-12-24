@@ -16,7 +16,7 @@
 - Last two Web Summits,
 - Footer.
 
-## Section Speakers is made dynamically with javascripts.
+### Section Speakers is made dynamically with javascripts.
 
  ## Built With
 - HTML
