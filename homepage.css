@@ -304,7 +304,7 @@ nav li a {
 /* partner */
 
 .sponsors-container {
-  background: #222222;
+  background: #222;
 }
 
 .partner1 {
@@ -413,7 +413,6 @@ nav li a {
     margin: 0;
     padding: 0;
     left: -40px;
-    font-style: 'Lato', sans-serif;
   }
 
   .program-text h5 {
@@ -552,7 +551,6 @@ nav li a {
     margin: 0;
     padding: 0;
     left: -20px;
-    font-style: 'Lato', sans-serif;
   }
 
   .program-text {
@@ -588,7 +586,7 @@ nav li a {
   .spn-columns h3 {
     font-size: 30px;
     padding: 0;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .pr2 h3 {
