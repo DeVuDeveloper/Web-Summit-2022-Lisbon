@@ -114,7 +114,7 @@ nav li a {
 .close {
   display: block;
   position: relative;
-  top: 2px;
+  top: -130px;
   left: 32px;
   font-size: 50px;
   color: #131212;
@@ -221,6 +221,15 @@ nav li a {
   z-index: -1;
 }
 
+  .images1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+  margin-bottom: 50px;
+}
+
 .images {
   position: relative;
   top: 0;
@@ -234,13 +243,15 @@ nav li a {
   position: relative;
   top: 0;
   left: 0;
+  height: 10%;
   margin-top: 15px;
 }
 
 .image2 {
   position: absolute;
-  top: 10px;
-  left: 22px;
+  top: 40px;
+  left: 30px;
+  height: 130%;
   z-index: 1500;
 }
 
@@ -274,7 +285,7 @@ nav li a {
   border: 1px solid rgb(126, 124, 124);
 }
 
-#hide-cards {
+.hide-cards {
   visibility: hidden;
   height: 0;
 }
@@ -355,7 +366,7 @@ nav li a {
     display: none;
   }
 
-  #hide-cards {
+  .hide-cards {
     visibility: visible !important;
     height: 100% !important;
   }
@@ -390,6 +401,7 @@ nav li a {
   }
 
   /* first end */
+  
   .wrap-program {
     display: flex;
     padding: 0;
@@ -458,13 +470,43 @@ nav li a {
     margin-bottom: 40px;
   }
 
-  .images1 {
-    margin-bottom: 50px;
-  }
-
   .description1 {
     margin-bottom: 50px;
   }
+
+  .images1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+  margin-bottom: 50px;
+}
+
+.images {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+  margin: 30px 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 10%;
+  margin-top: 15px;
+}
+
+.image2 {
+  position: absolute;
+  top: 33px;
+  left: 30px;
+  height: 130%;
+  z-index: 1500;
+}
 
   .speaker-txt {
     bottom: 0;
