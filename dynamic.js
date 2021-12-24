@@ -13,7 +13,7 @@ const featuredSpeakers1 = [
     name: 'Stacey Plaskett',
     description: 'Representative at House of Representatives',
     about:
-      ' In her role as congresswoman, Stacey represents the United States Virgin Islands.',
+      ' Stacey Elizabeth Plaskett is an American politician, attorney, and commentator. She is a delegate to the United States.',
     img1: 'img/speaker-background.jpg',
     img2: 'img/speaker2.jpg',
   },
@@ -25,7 +25,7 @@ const featuredSpeakers2 = [
     name: 'Tom Taylor',
     description: ' SVP of Alexa at Amazon',
     about:
-      ' Tom oversees the more than 10,000 engineers, scientists and other functions working to bring Alexa.',
+      ' n his most recent role as Senior Vice President, Amazon Seller Services, he led Amazon Payments, Transactional Risk Management.',
     img1: 'img/speaker-background.jpg',
     img2: 'img/speaker3.jpeg',
   },
@@ -34,7 +34,7 @@ const featuredSpeakers2 = [
     name: 'Jane Wakely',
     description: ' CMO at Mars, Incorporated',
     about:
-      ' Jane is the lead marketing officer at Mars, and the CMO at Mars Pet Nutrition.',
+      ' Currently Global Chief Marketing Officer for the Pet Nutrition business at Mars Incorporated and was previously the Global Chief Marketing Officer.',
     img1: 'img/speaker-background.jpg',
     img2: 'img/speaker4.png',
   },
@@ -46,7 +46,7 @@ const featuredSpeakers3 = [
     name: 'Brad Smith',
     description: ' President at Microsoft',
     about:
-      ' Brad has been at Microsoft since Windows 95 was a project code-named "Chicago".',
+      ' Bradford Lee Smith is an American attorney and technology executive currently serving as vice chairman and president of Microsoft..',
     img1: 'img/speaker-background.jpg',
     img2: 'img/speaker5.png',
   },
@@ -54,7 +54,7 @@ const featuredSpeakers3 = [
     id: 2,
     name: 'Amy Poehler',
     description: ' CMO at Mars, Incorporated',
-    about: " Founder at Amy Poehler's Smart Girls",
+    about: " Founder at Amy Poehler's Smart GirlsAmy. Poehler is an American actress, comedian, writer, producer, and director.",
     img1: 'img/speaker-background.jpg',
     img2: 'img/speaker6.png',
   },
@@ -70,7 +70,7 @@ for (let i = 0; i < featuredSpeakers1.length; i += 1) {
       <div  id='${featuredSpeaker1.id}' class='card-wraper1 col-md-4 col-lg-4 col-xl-4  align-items-center mb-3'>
        <div class="row ">
          <div class="images1  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-              <img class="image1 img-fluid" src="${featuredSpeaker1.img1}" alt="" width=70% height=80%>
+              <img class="image1 img-fluid" src="${featuredSpeaker1.img1}" alt="${featuredSpeaker1.name}" width=70% height=80%>
              <img class="image2 " src="${featuredSpeaker1.img2}" alt='' width=80% height=150%>
    
          </div>
@@ -99,7 +99,7 @@ for (let i = 0; i < featuredSpeakers2.length; i += 1) {
   <div class="row ">
     <div class="images1  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
          <img class="image1 img-fluid" src="${featuredSpeaker2.img1}" alt="" width=70% height=80%>
-        <img class="image2 " src="${featuredSpeaker2.img2}" alt='' width=80% height=150%>
+        <img class="image2 " src="${featuredSpeaker2.img2}" alt='${featuredSpeaker2.name}' width=80% height=150%>
 
     </div>
     <div class="description1 col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 no-gutters">
@@ -127,7 +127,7 @@ for (let i = 0; i < featuredSpeakers3.length; i += 1) {
   <div class="row ">
     <div class="images1  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
          <img class="image1 img-fluid" src="${featuredSpeaker3.img1}" alt="" width=70% height=80%>
-        <img class="image2 " src="${featuredSpeaker3.img2}" alt='' width=80% height=150%>
+        <img class="image2 " src="${featuredSpeaker3.img2}" alt='${featuredSpeaker3.name}' width=80% height=150%>
 
     </div>
     <div class="description1 col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 no-gutters">

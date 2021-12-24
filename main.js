@@ -13,18 +13,18 @@ closeMe.forEach((element) => {
 });
 
 const hiddenElement = document.querySelectorAll('.hide-cards');
-const hideBtn = document.querySelector('.hide-btn a');
+const hideBtn = document.querySelector('.hide-btn');
 
 hideBtn.addEventListener('click', () => {
   hiddenElement.forEach((item) => {
     if (item.style.visibility === 'hidden') {
       item.style.visibility = 'visible';
       item.style.height = '100%';
-      document.querySelector('.hide-btn a').textContent = 'LESS';
+      document.querySelector('.hide-btn').textContent = 'LESS ▼';
     } else {
       item.style.visibility = 'hidden';
       item.style.height = '0';
-      document.querySelector('.hide-btn a').textContent = 'MORE';
+      document.querySelector('.hide-btn').textContent = 'MORE ▼';
     }
   });
 });
