@@ -1,8 +1,8 @@
-##Web Summit 2022 Lisbon
+# Web Summit 2022 Lisbon
 
  Capstone project for Microverse module Portal.
 
-##Homepage
+## Homepage
 - Section with hamburger menu for mobile,
 - 2 navbars with links.
 - Section with programs,
@@ -10,7 +10,7 @@
 - Section Partners,
 - Footer.
 
-##About
+## About
 - Section with hamburger menu for mobile,
 - 2 navbars with links,
 - Logo,
