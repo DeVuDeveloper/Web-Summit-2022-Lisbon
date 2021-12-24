@@ -1,86 +1,80 @@
 const featuredSpeakers1 = [
   {
     id: 1,
-    name: 'Mugisha Benkler',
-    description:
-      ' Berlkman Professor of Enterpreneurial Legal Studies of Harvard Law School',
+    name: 'Guillaume Pousaz',
+    description: ' Founder & CEO at Checkout.com',
     about:
-      ' Benkler studies commons-based peer production and published his seminal book. The Wealth of Networks in 2006',
+      ' Checkout.com CEO Guillaume believes that financial complexity is a barrier to innovation and is blocking economic prosperity. ',
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker1.jpg'
+    img2: 'img/speaker1.png'
   },
   {
     id: 2,
-    name: 'Rachid Benkler',
-    description:
-       'Melvo Professor of Enterpreneurial Legal Studies of Harvard Law School',
+    name: 'Stacey Plaskett',
+    description: 'Representative at House of Representatives',
     about:
-      ' MElvo studies commons-based peer production and published his seminal book. The Wealth of Networks in 2006',
+      ' In her role as congresswoman, Stacey represents the United States Virgin Islands.',
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker1.jpg'
+    img2: 'img/speaker2.jpg'
   }
 ]
 
 const featuredSpeakers2 = [
   {
     id: 1,
-    name: 'Omar Benkler',
-    description:
-      ' Rahman Professor of Enterpreneurial Legal Studies of Harvard Law School',
+    name: 'Tom Taylor',
+    description: ' SVP of Alexa at Amazon',
     about:
-      ' Rahman studies commons-based peer production and published his seminal book. The Wealth of Networks in 2006',
+      ' Tom oversees the more than 10,000 engineers, scientists and other functions working to bring Alexa.',
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker1.jpg'
+    img2: 'img/speaker3.jpeg'
   },
   {
     id: 2,
-    name: 'Muneeb Benkler',
-    description:
-      ' Ragib Professor of Enterpreneurial Legal Studies of Harvard Law School',
+    name: 'Jane Wakely',
+    description: ' CMO at Mars, Incorporated',
     about:
-      ' Studio studies commons-based peer production and published his seminal book. The Wealth of Networks in 2006',
+      ' Jane is the lead marketing officer at Mars, and the CMO at Mars Pet Nutrition.',
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker1.jpg'
+    img2: 'img/speaker4.png'
   }
 ]
 
 const featuredSpeakers3 = [
   {
     id: 1,
-    name: 'tuta Benkler',
-    description:
-      ' Berlkman Professor of Enterpreneurial Legal Studies of Harvard Law School',
+    name: 'Brad Smith',
+    description: ' President at Microsoft',
     about:
-      ' Benkler studies commons-based peer production and published his seminal book. The Wealth of Networks in 2006',
+      ' Brad has been at Microsoft since Windows 95 was a project code-named "Chicago".',
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker1.jpg'
+    img2: 'img/speaker5.png'
   },
   {
     id: 2,
-    name: 'Jos Benkler',
-    description:
-      ' Bofco Professor of Enterpreneurial Legal Studies of Harvard Law School',
-    about:
-      ' Sakib studies commons-based peer production and published his seminal book. The Wealth of Networks in 2006',
+    name: 'Amy Poehler',
+    description: ' CMO at Mars, Incorporated',
+    about: " Founder at Amy Poehler's Smart Girls",
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker1.jpg'
+    img2: 'img/speaker6.png'
   }
 ]
+
 const speakers1 = document.querySelector('.columns-row1')
 
 for (let i = 0; i < featuredSpeakers1.length; i += 1) {
-   const featuredSpeaker1 = featuredSpeakers1[i]
+  const featuredSpeaker1 = featuredSpeakers1[i]
 
-   speakers1.innerHTML += `
+  speakers1.innerHTML += `
         
-      <div  id='${featuredSpeaker1.id}' class='card-wraper col-md-4 col-lg-4 col-xl-4  align-items-center py-3 mb-5'>
+      <div  id='${featuredSpeaker1.id}' class='card-wraper1 col-md-4 col-lg-4 col-xl-4  align-items-center mb-3'>
        <div class="row ">
-         <div class="images col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+         <div class="images1  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
               <img class="image1 img-fluid" src="${featuredSpeaker1.img1}" alt="" width=70% height=80%>
-             <img class="image2  " src="${featuredSpeaker1.img2}" alt='' width=80% height=150%>
+             <img class="image2 " src="${featuredSpeaker1.img2}" alt='' width=80% height=150%>
    
          </div>
-         <div class="description col-8 col-sm-4 col-md-8 col-lg-8 col-xl-8 no-gutters">
+         <div class="description1 col-8 col-sm-4 col-md-8 col-lg-8 col-xl-8 no-gutters">
              <h4>${featuredSpeaker1.name}</h4>
              <h5 class='red fst-italic fw-bold'>${featuredSpeaker1.description}
              </h5>
@@ -90,17 +84,17 @@ for (let i = 0; i < featuredSpeakers1.length; i += 1) {
         </div>
          </div>               
    </div>
-   `;
+   `
 }
 
- const speakers2 = document.querySelector('.columns-row2')
+const speakers2 = document.querySelector('.columns-row2')
 
 for (let i = 0; i < featuredSpeakers1.length; i += 1) {
-   const featuredSpeaker2 = featuredSpeakers2[i]
+  const featuredSpeaker2 = featuredSpeakers2[i]
 
-   speakers2.innerHTML += `
+  speakers2.innerHTML += `
         
-      <div  id='${featuredSpeaker2.id}' class='card-wraper col-md-4 col-lg-4 col-xl-4  align-items-center py-3 mb-5'>
+      <div  id='${featuredSpeaker2.id}' class='card-wraper col-md-4 col-lg-4 col-xl-4  align-items-center '>
        <div class="row ">
          <div class="images col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
               <img class="image1 img-fluid" src="${featuredSpeaker2.img1}" alt="" width=70% height=80%>
@@ -117,17 +111,17 @@ for (let i = 0; i < featuredSpeakers1.length; i += 1) {
         </div>
          </div>               
    </div>
-   `;
+   `
 }
 
- const speakers3 = document.querySelector('.columns-row3')
+const speakers3 = document.querySelector('.columns-row3')
 
- for (let i = 0; i < featuredSpeakers1.length; i += 1) {
-   const featuredSpeaker3 = featuredSpeakers3[i]
+for (let i = 0; i < featuredSpeakers1.length; i += 1) {
+  const featuredSpeaker3 = featuredSpeakers3[i]
 
-   speakers3.innerHTML += `
+  speakers3.innerHTML += `
        
-        <div  id='${featuredSpeaker3.id}' class='card-wraper  col-md-4 col-lg-4 col-xl-4 align-items-center py-3 mb-5'>
+        <div  id='${featuredSpeaker3.id}' class='card-wraper  col-md-4 col-lg-4 col-xl-4 align-items-center '>
         <div class="row ">
          <div class="images col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
             <img class="image1 img-fluid" src="${featuredSpeaker3.img1}" alt="" width=70% height=80%>
@@ -144,5 +138,5 @@ for (let i = 0; i < featuredSpeakers1.length; i += 1) {
         </div>
         </div>               
   </div>
-   `;
- }
+   `
+}

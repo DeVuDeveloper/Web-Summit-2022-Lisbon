@@ -1,5 +1,6 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -151,6 +152,7 @@ nav li a {
   color: #5f5d5d;
 }
 
+
 /* end of first section */
 
 .line {
@@ -161,17 +163,16 @@ nav li a {
   margin: auto;
 }
 
+
 /* end of logo section */
 
 .img1 {
-  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
-    saturate(600%) contrast(0.8);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
   opacity: 0.6;
 }
 
 .img2 {
-  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
-    saturate(600%) contrast(0.8);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
   opacity: 0.6;
 }
 
@@ -196,6 +197,7 @@ nav li a {
   transform: translate(-50%, -50%);
   font-size: 1.2vh;
 }
+
 
 /* partners */
 
@@ -230,6 +232,7 @@ nav li a {
   color: #a19f9f;
 }
 
+
 /* footer */
 
 .footer p {
@@ -244,7 +247,6 @@ nav li a {
   .menu {
     display: none;
   }
- 
   .black-nav {
     padding-right: 50px;
   }
@@ -259,9 +261,7 @@ nav li a {
     margin-top: 10px;
     height: auto;
   }
-
-   /* end first */
-
+  /* end first */
   .logo-container {
     margin-bottom: 50px;
   }
@@ -280,6 +280,7 @@ nav li a {
   }
   .text-in h6 {
     top: 55%;
+    font-size: 20px
   }
   /* partners */
   #partners {
@@ -370,7 +371,3 @@ nav li a {
     left: 30px;
   }
 }
-    
-  
-  
-  
