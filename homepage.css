@@ -567,6 +567,7 @@
             left: 150px;
             bottom: 7px;
           }
+        }
           @media only screen and (max-width: 768px) {
             .logo-home {
               left: 210px;

@@ -83,7 +83,9 @@ nav {
   top: 0;
   left: 0;
   right: 0;
+
   /* background-color: rgba(73, 177, 224, 0.9); */
+
   background-image: url(img/navbg.jpg);
   overflow-y: hidden;
   z-index: 1500;
@@ -152,7 +154,6 @@ nav li a {
   color: #5f5d5d;
 }
 
-
 /* end of first section */
 
 .line {
@@ -162,7 +163,6 @@ nav li a {
   border: 1px solid #ec5242;
   margin: auto;
 }
-
 
 /* end of logo section */
 
@@ -198,7 +198,6 @@ nav li a {
   font-size: 1.2vh;
 }
 
-
 /* partners */
 
 .sponsors-container {
@@ -232,12 +231,7 @@ nav li a {
   color: #a19f9f;
 }
 
-
 /* footer */
-
-.footer p {
-  font-size: 1.7vh;
-}
 
 .footer p {
   font-size: 1.7vh;
@@ -247,9 +241,11 @@ nav li a {
   .menu {
     display: none;
   }
+
   .black-nav {
     padding-right: 50px;
   }
+
   .logo-home {
     position: relative;
     left: 210px;
@@ -257,17 +253,22 @@ nav li a {
     height: auto;
     bottom: 5px;
   }
+
   .white-nav li {
     margin-top: 10px;
     height: auto;
   }
+
   /* end first */
+
   .logo-container {
     margin-bottom: 50px;
   }
+
   .logo-p {
     display: none;
   }
+
   .img-container {
     display: flex;
     align-items: center;
@@ -275,31 +276,39 @@ nav li a {
     padding: 50px;
     margin: auto;
   }
+
   .text-in h2 {
     top: 40%;
   }
+
   .text-in h6 {
     top: 55%;
     font-size: 20px
   }
+
   /* partners */
   #partners {
     display: none;
   }
+
   /* footer */
+
   .mail {
     position: relative;
     left: 130px;
   }
+
   .mail-icon {
     color: rgb(219, 213, 213);
     position: relative;
     left: 35px;
   }
+
   .footer {
     background: black;
     padding: 10px 0;
   }
+
   .footer-txt {
     display: flex;
     flex-direction: column;
@@ -307,16 +316,20 @@ nav li a {
     margin: 0;
     padding: 0;
   }
+
   .footer p {
     color: rgb(196, 189, 189);
   }
+
   .footer h6 {
     font-size: 24px;
     color: rgb(207, 203, 203);
   }
+   
   .footerp-hide {
     margin-top: -30px;
-  }
+  }     
+
   .logo-home:hover {
     height: 97%;
   }
@@ -345,12 +358,15 @@ nav li a {
     top: 40%;
     font-size: 2vh;
   }
+
   .text-in h6 {
     top: 60%;
   }
+
   .mail {
     left: 50px;
   }
+  
   .mail-icon {
     left: 40px;
   }

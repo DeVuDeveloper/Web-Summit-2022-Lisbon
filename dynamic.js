@@ -6,7 +6,7 @@ const featuredSpeakers1 = [
     about:
       ' Checkout.com CEO Guillaume believes that financial complexity is a barrier to innovation and is blocking economic prosperity. ',
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker1.png'
+    img2: 'img/speaker1.png',
   },
   {
     id: 2,
@@ -15,9 +15,9 @@ const featuredSpeakers1 = [
     about:
       ' In her role as congresswoman, Stacey represents the United States Virgin Islands.',
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker2.jpg'
-  }
-]
+    img2: 'img/speaker2.jpg',
+  },
+];
 
 const featuredSpeakers2 = [
   {
@@ -27,7 +27,7 @@ const featuredSpeakers2 = [
     about:
       ' Tom oversees the more than 10,000 engineers, scientists and other functions working to bring Alexa.',
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker3.jpeg'
+    img2: 'img/speaker3.jpeg',
   },
   {
     id: 2,
@@ -36,9 +36,9 @@ const featuredSpeakers2 = [
     about:
       ' Jane is the lead marketing officer at Mars, and the CMO at Mars Pet Nutrition.',
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker4.png'
-  }
-]
+    img2: 'img/speaker4.png',
+  },
+];
 
 const featuredSpeakers3 = [
   {
@@ -48,7 +48,7 @@ const featuredSpeakers3 = [
     about:
       ' Brad has been at Microsoft since Windows 95 was a project code-named "Chicago".',
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker5.png'
+    img2: 'img/speaker5.png',
   },
   {
     id: 2,
@@ -56,14 +56,14 @@ const featuredSpeakers3 = [
     description: ' CMO at Mars, Incorporated',
     about: " Founder at Amy Poehler's Smart Girls",
     img1: 'img/speaker-background.jpg',
-    img2: 'img/speaker6.png'
-  }
-]
+    img2: 'img/speaker6.png',
+  },
+];
 
-const speakers1 = document.querySelector('.columns-row1')
+const speakers1 = document.querySelector('.columns-row1');
 
 for (let i = 0; i < featuredSpeakers1.length; i += 1) {
-  const featuredSpeaker1 = featuredSpeakers1[i]
+  const featuredSpeaker1 = featuredSpeakers1[i];
 
   speakers1.innerHTML += `
         
@@ -84,13 +84,13 @@ for (let i = 0; i < featuredSpeakers1.length; i += 1) {
         </div>
          </div>               
    </div>
-   `
+   `;
 }
 
-const speakers2 = document.querySelector('.columns-row2')
+const speakers2 = document.querySelector('.columns-row2');
 
 for (let i = 0; i < featuredSpeakers1.length; i += 1) {
-  const featuredSpeaker2 = featuredSpeakers2[i]
+  const featuredSpeaker2 = featuredSpeakers2[i];
 
   speakers2.innerHTML += `
         
@@ -111,13 +111,13 @@ for (let i = 0; i < featuredSpeakers1.length; i += 1) {
         </div>
          </div>               
    </div>
-   `
+   `;
 }
 
-const speakers3 = document.querySelector('.columns-row3')
+const speakers3 = document.querySelector('.columns-row3');
 
 for (let i = 0; i < featuredSpeakers1.length; i += 1) {
-  const featuredSpeaker3 = featuredSpeakers3[i]
+  const featuredSpeaker3 = featuredSpeakers3[i];
 
   speakers3.innerHTML += `
        
@@ -138,5 +138,5 @@ for (let i = 0; i < featuredSpeakers1.length; i += 1) {
         </div>
         </div>               
   </div>
-   `
+   `;
 }
