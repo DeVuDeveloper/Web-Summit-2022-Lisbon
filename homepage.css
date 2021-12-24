@@ -219,14 +219,6 @@ nav li a {
   left: 0;
   height: 100%;
   z-index: -1;
-}
-
-  .images1 {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 100%;
-  z-index: -1;
   margin-bottom: 50px;
 }
 
@@ -401,7 +393,7 @@ nav li a {
   }
 
   /* first end */
-  
+
   .wrap-program {
     display: flex;
     padding: 0;
@@ -475,38 +467,38 @@ nav li a {
   }
 
   .images1 {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 100%;
-  z-index: -1;
-  margin-bottom: 50px;
-}
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    margin-bottom: 50px;
+  }
 
-.images {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 100%;
-  z-index: -1;
-  margin: 30px 0;
-}
+  .images {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    margin: 30px 0;
+  }
 
-.image1 {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 10%;
-  margin-top: 15px;
-}
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 10%;
+    margin-top: 15px;
+  } 
 
-.image2 {
-  position: absolute;
-  top: 33px;
-  left: 30px;
-  height: 130%;
-  z-index: 1500;
-}
+  .image2 {
+    position: absolute;
+    top: 33px;
+    left: 30px;
+    height: 130%;
+    z-index: 1500;
+  }
 
   .speaker-txt {
     bottom: 0;
