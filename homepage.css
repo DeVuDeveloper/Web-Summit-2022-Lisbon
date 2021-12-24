@@ -1,9 +1,11 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
 }
+
 /* font */
 
 .lato {
@@ -76,7 +78,6 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  /* background-color: rgba(73, 177, 224, 0.9); */
   background-image: url(img/navbg.jpg);
   overflow-y: hidden;
   z-index: 1500;
@@ -128,10 +129,8 @@ nav li a {
   font-size: 3.8vh;
   font-weight: bolder;
   margin-bottom: 55px;
-  /* background: linear-gradient(to right, #cf3a15 0%, #ff8324 50%, #cf1512 100%);  */
   background-image: url(img/text.jpg);
   background-size: cover;
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
@@ -195,14 +194,6 @@ nav li a {
   text-decoration: none;
 }
 
-.last:hover {
-  background-color: #f5f1f0;
-}
-
-.last:hover h4 {
-  color: #db3d13;
-}
-
 .bkg {
   background-color: rgba(175, 171, 171, 0.3);
 }
@@ -236,12 +227,14 @@ nav li a {
   left: 0;
   height: 100%;
   z-index: -1;
+  margin: 30px 0;
 }
 
 .image1 {
   position: relative;
   top: 0;
   left: 0;
+  margin-top: 15px;
 }
 
 .image2 {
@@ -300,16 +293,8 @@ nav li a {
   color: #5f5d5d;
 }
 
-.images1 {
-  margin-top: 15px;
-}
-
 .description1 {
   margin-top: 15px;
-}
-
-.images {
-  margin: 30px 0;
 }
 
 .description {
@@ -584,10 +569,6 @@ nav li a {
     margin-left: 20px;
   }
 
-  .program-text h3 {
-    left: -48px;
-  }
-
   .program-text h5 {
     font-size: 12px;
   }
@@ -628,7 +609,6 @@ nav li a {
   .images {
     position: relative;
     top: 10px;
-    left: 0;
     height: 100%;
     z-index: -1;
   }
@@ -655,14 +635,14 @@ nav li a {
   }
 }
 
+.close:hover {
+  color: #f1eeee;
+}
+
 .last:hover {
   background-color: #f5f1f0;
 }
 
 .last:hover h4 {
   color: #db3d13;
-}
-
-.close:hover {
-  color: #f1eeee;
 }
