@@ -1,6 +1,5 @@
 # Web Summit 2022 Lisbon
-
- Capstone project for Microverse module Portal.
+## Capstone project for Microverse module Portal.
 
 ## Homepage
 - Section with hamburger menu for mobile,
@@ -17,17 +16,15 @@
 - Last two Web Summits,
 - Footer.
 
-##Section Speakers is made dynamically with javascripts.
+## Section Speakers is made dynamically with javascripts.
 
  ## Built With
-
 - HTML
 - CSS
 - Bootstrap
 - Javascript
 
 ## Getting Started
--
 - git clone https://github.com/VuDej/Capstone-Portal.git
 - git push -u origin main
 
