@@ -360,38 +360,49 @@ nav li a {
     margin-right: 200px;
   }
 
-  .program-text {
-    display: grid;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    justify-items: center;
-    width: 26%;
-    height: 250px;
+  .card-cont {
+    display: flex;
+    width: max-content;
+    height: 300px;
+    margin: 0;
     padding: 0;
+  }
+
+  .program-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    width: 20%;
     margin-right: 20px;
   }
 
-  .program-text h3 {
+  .fix1  {
     position: relative;
-    top: 5px;
-    margin: 0;
-    padding: 0;
-    left: -40px;
+    top: 47px;
+    left: -20px;
   }
 
-  .program-text h5 {
+  .fix2 {
+    position: relative;
+    top: 47px;
+    left: -38px;
+  }
+  
+   .program-text h5 {
     position: relative;
     top: 40px;
-    width: 80%;
-    margin: 0;
-    padding: 0;
+    width:90%;
+    text-align: center;
+    font-size: 1.7vh;
     color: white;
+    margin: auto;
   }
 
   .img1 {
     position: relative;
-    left: -28px;
-    margin: 0;
-    padding: 0;
+    top: 15px;
+    left: -20px;
     color: white;
   }
 
@@ -526,15 +537,66 @@ nav li a {
     left: 30px;
   }
 
+  .card-cont {
+    display: flex;
+    width: max-content;
+    text-align: center;
+    height: 300px;
+    margin-left: 0px;
+    padding: 0;
+    border: 2px solid green;
+
+  }
+
+  .program-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    width: 20%;
+    margin-right: 20px;
+    padding: 0;
+  }
+
+  .fix1  {
+    position: relative;
+    top: 47px;
+    left: -50px;
+  }
+
+  .fix2 {
+    position: relative;
+    top: 47px;
+    left: -48px;
+  }
+  
+   .program-text h5 {
+    position: relative;
+    top: 40px;
+    width:90%;
+    text-align: center;
+    font-size: 1.3vh;
+    color: white;
+    margin: auto;
+  }
+
+  .img1 {
+    position: relative;
+    top: 15px;
+    left: -20px;
+    color: white;
+  }
+
+/* 
   .program-text h3 {
     position: relative;
     top: 5px;
     margin: 0;
     padding: 0;
     left: -20px;
-  }
+  } */
 
-  .program-text {
+  /* .program-text {
     display: grid;
     grid-template-rows: 20% 20% 20% 20% 20%;
     justify-items: center;
@@ -542,15 +604,15 @@ nav li a {
     height: 250px;
     padding: 0;
     margin-right: 20px;
-  }
+  } */
 
-  .wrap-program {
+  /* .wrap-program {
     margin-left: 20px;
   }
 
   .program-text h5 {
     font-size: 12px;
-  }
+  } */
 
   .sponsors-container {
     padding: 0;
