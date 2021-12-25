@@ -47,24 +47,11 @@
   color: red;
 }
 
-.wraper {
-  position: relative;
+.wrapper {
+  background-image:  url(img/bkg2.jpg);
   background-repeat: no-repeat;
-}
-
-.wraper::after {
-  content: '';
-  display: block;
-  background-image: url('img/bkg.jpg');
-  background-repeat: no-repeat;
+  padding: 15px;
   background-size: cover;
-  opacity: 0.7;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 
 header {
@@ -82,8 +69,10 @@ header {
 nav {
   height: 0%;
   position: fixed;
+  top:0;
   width: auto;
-  background-image: url(img/navbg.jpg);
+  background-color: rgb(233, 240, 238);
+  opacity: 0.9;
   overflow-y: hidden;
   z-index: 1500;
   transition: 0.5s;
@@ -96,8 +85,8 @@ nav li {
 }
 
 nav li a {
-  color: #f1eeeb;
-}
+  color: #fc6209;
+} 
 
 .nav-logo {
   position: relative;
@@ -110,7 +99,7 @@ nav li a {
   display: block;
   align-items: center;
   width: 20%;
-  border: 2px solid #e6e2e1;
+  border: 2px solid #fc6209;
   margin: auto;
   top: 35%;
   bottom: 20px;
@@ -119,27 +108,23 @@ nav li a {
 .close {
   display: block;
   position: relative;
-  top: -130px;
+  top: -123px;
   left: 32px;
   font-size: 50px;
   color: #131212;
   cursor: pointer;
 }
 
-.crazy-text {
-  background-image: url(img/text.jpg/800);
-}
-
 .text h1 {
-  font-size: 3.8vh;
-  font-weight: bolder;
-  margin-bottom: 55px;
+  font-size: 4vh;
+ 
+  font-weight: 700;
   background-image: url(img/text.jpg);
   background-size: cover;
+  background-position: center center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: transparent;
-}
+} 
 
 .text h2 {
   font-size: 2.8vh;
@@ -167,6 +152,10 @@ nav li a {
 .program {
   margin-top: 90px;
   background-image: url('img/bck1.jpg');
+}
+
+.program-text {
+  background-image: url('img/bck2.jpg');
 }
 
 .program-text h3 {
