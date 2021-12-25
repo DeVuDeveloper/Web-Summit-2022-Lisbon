@@ -88,11 +88,6 @@ nav {
   height: 0%;
   position: fixed;
   width: auto;
-  padding: 0;
-  margin: 0;
-  top: 0;
-  left: 0;
-  right: 0;
   background-image: url(img/navbg.jpg);
   overflow-y: hidden;
   z-index: 1500;
@@ -161,8 +156,6 @@ nav li a {
   color: #5f5d5d;
 }
 
-/* end of first section */
-
 .line {
   display: block;
   align-items: center;
@@ -170,8 +163,6 @@ nav li a {
   border: 1px solid #ec5242;
   margin: auto;
 }
-
-/* end of logo section */
 
 .img1 {
   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
@@ -205,8 +196,6 @@ nav li a {
   font-size: 1.2vh;
 }
 
-/* partners */
-
 .sponsors-container {
   background: #494848;
 }
@@ -238,8 +227,6 @@ nav li a {
   color: #a19f9f;
 }
 
-/* footer */
-
 .footer p {
   font-size: 1.7vh;
 }
@@ -267,8 +254,6 @@ nav li a {
     height: auto;
   }
 
-  /* end first */
-
   .logo-container {
     margin-bottom: 50px;
   }
@@ -278,9 +263,6 @@ nav li a {
   }
 
   .img-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 50px;
     margin: auto;
   }
@@ -294,12 +276,9 @@ nav li a {
     font-size: 20px;
   }
 
-  /* partners */
   #partners {
     display: none;
   }
-
-  /* footer */
 
   .mail {
     position: relative;
@@ -315,14 +294,6 @@ nav li a {
   .footer {
     background: black;
     padding: 10px 0;
-  }
-
-  .footer-txt {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0;
-    padding: 0;
   }
 
   .footer p {

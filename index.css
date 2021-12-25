@@ -83,11 +83,6 @@ nav {
   height: 0%;
   position: fixed;
   width: auto;
-  padding: 0;
-  margin: 0;
-  top: 0;
-  left: 0;
-  right: 0;
   background-image: url(img/navbg.jpg);
   overflow-y: hidden;
   z-index: 1500;
@@ -169,8 +164,6 @@ nav li a {
   margin-bottom: 45px;
 }
 
-/* end of first section */
-
 .program {
   margin-top: 90px;
   background-image: url('img/bck1.jpg');
@@ -215,8 +208,6 @@ nav li a {
   border: 1px solid #db3d13;
   margin: auto;
 }
-
-/* program section end */
 
 .speaker-txt {
   position: relative;
@@ -276,8 +267,6 @@ nav li a {
 }
 
 .hide-btn {
-  display: flex;
-  justify-content: center;
   padding: 10px;
   border: 1px solid #c9bfbf;
   width: 100%;
@@ -296,8 +285,6 @@ nav li a {
 .description {
   margin-top: 50px;
 }
-
-/* partner */
 
 .sponsors-container {
   background: #222;
@@ -331,8 +318,6 @@ nav li a {
   font-size: 20px;
   color: #a19f9f;
 }
-
-/* footer */
 
 .footer p {
   font-size: 1.7vh;
@@ -386,15 +371,6 @@ nav li a {
     margin-right: 200px;
   }
 
-  /* first end */
-
-  .wrap-program {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-  }
-
   .program-text {
     display: grid;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -445,8 +421,6 @@ nav li a {
   .program-text:hover {
     border: 3px solid #fff;
   }
-
-  /* program end */
 
   .card-wraper1 {
     margin-bottom: 40px;
@@ -502,8 +476,6 @@ nav li a {
     font-size: 30px;
   }
 
-  /* footer */
-
   .mail {
     position: relative;
     left: 130px;
@@ -517,14 +489,6 @@ nav li a {
 
   .footer {
     padding: 10px 0;
-  }
-
-  .footer-txt {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0;
-    padding: 0;
   }
 
   .footer p {
