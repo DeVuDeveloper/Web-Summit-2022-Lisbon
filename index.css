@@ -86,7 +86,7 @@ nav li {
 
 nav li a {
   color: #fc6209;
-} 
+}
 
 .nav-logo {
   position: relative;
@@ -117,14 +117,13 @@ nav li a {
 
 .text h1 {
   font-size: 4vh;
- 
   font-weight: 700;
   background-image: url(img/text.jpg);
   background-size: cover;
   background-position: center center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-} 
+}
 
 .text h2 {
   font-size: 2.8vh;
