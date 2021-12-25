@@ -377,7 +377,7 @@ nav li a {
     margin-right: 20px;
   }
 
-  .fix1  {
+  .fix1 {
     position: relative;
     top: 47px;
     left: -20px;
@@ -388,11 +388,11 @@ nav li a {
     top: 47px;
     left: -38px;
   }
-  
-   .program-text h5 {
+
+  .program-text h5 {
     position: relative;
     top: 40px;
-    width:90%;
+    width: 90%;
     text-align: center;
     font-size: 1.7vh;
     color: white;
@@ -542,10 +542,8 @@ nav li a {
     width: max-content;
     text-align: center;
     height: 300px;
-    margin-left: 0px;
     padding: 0;
     border: 2px solid green;
-
   }
 
   .program-text {
@@ -558,7 +556,7 @@ nav li a {
     padding: 0;
   }
 
-  .fix1  {
+  .fix1 {
     position: relative;
     top: 47px;
     left: -50px;
@@ -570,10 +568,10 @@ nav li a {
     left: -48px;
   }
   
-   .program-text h5 {
+  .program-text h5 {
     position: relative;
     top: 40px;
-    width:90%;
+    width: 90%;
     text-align: center;
     font-size: 1.3vh;
     color: white;
@@ -586,33 +584,6 @@ nav li a {
     left: -20px;
     color: white;
   }
-
-/* 
-  .program-text h3 {
-    position: relative;
-    top: 5px;
-    margin: 0;
-    padding: 0;
-    left: -20px;
-  } */
-
-  /* .program-text {
-    display: grid;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    justify-items: center;
-    width: 32%;
-    height: 250px;
-    padding: 0;
-    margin-right: 20px;
-  } */
-
-  /* .wrap-program {
-    margin-left: 20px;
-  }
-
-  .program-text h5 {
-    font-size: 12px;
-  } */
 
   .sponsors-container {
     padding: 0;
