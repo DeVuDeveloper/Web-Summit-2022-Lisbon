@@ -1,5 +1,5 @@
 const openMe = document.querySelector('.menu');
-const closeMe = document.querySelectorAll('.close');
+const closeMe = document.querySelectorAll('.close-btn');
 const menuMobile = document.querySelector('#navbar');
 
 openMe.addEventListener('click', () => {
