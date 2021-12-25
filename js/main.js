@@ -20,11 +20,11 @@ hideBtn.addEventListener('click', () => {
     if (item.style.visibility === 'hidden') {
       item.style.visibility = 'visible';
       item.style.height = '100%';
-      document.querySelector('.hide-btn').textContent = 'LESS ▼';
+      hideBtn.textContent = 'LESS ^';
     } else {
       item.style.visibility = 'hidden';
       item.style.height = '0';
-      document.querySelector('.hide-btn').textContent = 'MORE ▼';
+      hideBtn.textContent = 'MORE ▼';
     }
   });
 });

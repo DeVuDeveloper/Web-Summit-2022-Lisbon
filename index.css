@@ -322,7 +322,8 @@ nav li a {
   }
 
   .hide-btn {
-    display: none;
+    visibility: hidden;
+    height: 0;
   }
 
   .hide-cards {
