@@ -543,8 +543,7 @@ nav li a {
     text-align: center;
     height: 300px;
     padding: 0;
-    border: 2px solid green;
-  }
+   }
 
   .program-text {
     display: flex;
