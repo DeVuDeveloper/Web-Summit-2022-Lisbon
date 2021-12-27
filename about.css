@@ -167,7 +167,7 @@ nav li a {
   color: white;
 }
  
- .text-in h2 {
+.text-in h2 {
   position: absolute;
   top: 45%;
   left: 50%;
@@ -181,7 +181,7 @@ nav li a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.2vh;
-} 
+}
 
 .sponsors-container {
   background: #222;
@@ -192,12 +192,12 @@ nav li a {
   color: #c9c2c2;
 }
 
- .partner2 {
+.partner2 {
   font-size: 26px;
   background: -webkit-linear-gradient(#eee, rgb(116, 113, 113));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-} 
+}
 
 .partner3 {
   font-size: 20px;
@@ -221,7 +221,7 @@ nav li a {
 .black-nav {
   visibility: hidden;
   height: 0;
-} 
+}
 
 .for-hide {
   display: none;
@@ -235,7 +235,7 @@ nav li a {
   .black-nav {
     visibility: visible;
     height: 100%;
-  } 
+  }
 
   .logo-home {
     position: relative;
@@ -299,7 +299,7 @@ nav li a {
 @media (max-width: 1199.98px) {
   .text-in h2 {
     top: 45%;
-    font-size: 3.0vh;
+    font-size: 3vh;
   }
 
   .text-in h6 {
@@ -311,12 +311,11 @@ nav li a {
 @media (max-width: 991.8px) {
   .text-in h2 {
     top: 42%;
-    font-size:2.7vh;
+    font-size: 2.7vh;
   }
 
   .text-in h6 {
     top: 55%;
     font-size: 1.6vh;
   }
-
 }

@@ -15,11 +15,9 @@ closeMe.forEach((element) => {
 const hiddenElement = document.querySelectorAll('.hide-cards');
 const hideBtn = document.querySelector('.hide-btn');
 const show = document.querySelector('.show-items');
-const icon= document.querySelector('.hide-btn i');
+const icon = document.querySelector('.hide-btn i');
 const caretDown = ('fa', 'fa-chevron-down');
-const caretUp = ('fa', 'fa-chevron-up');
-
-
+const caretUp = ('fa','fa-chevron-up');
 
 hideBtn.addEventListener('click', () => {
   hiddenElement.forEach((item) => {
@@ -27,14 +25,14 @@ hideBtn.addEventListener('click', () => {
       item.style.visibility = 'visible';
       item.style.height = '100%';
       show.textContent = 'LESS';
-       icon.classList.remove(caretDown);
-       icon.classList.add(caretUp);
+      icon.classList.remove(caretDown);
+      icon.classList.add(caretUp);
     } else {
       item.style.visibility = 'hidden';
       item.style.height = '0';
       show.textContent = 'MORE';
-       icon.classList.remove(caretUp);
-       icon.classList.add(caretDown);
+      icon.classList.remove(caretUp);
+      icon.classList.add(caretDown);
     }
   });
 });
