@@ -217,10 +217,15 @@
         <div
           class="
             img-container
+            col-sm-12
+            col-md-12
             col-lg-12
+            col-xl-12
+
             images
             py-4
             column
+            d-sm-flex
             d-md-flex
             d-lg-flex
             d-xl-flex
@@ -229,12 +234,13 @@
             p-5
           "
         >
-          <div class="text-in col-md-4 col-lg-4 col-xl-4">
+          <div class="text-in col-sm-6 col-md-6 col-lg-4 col-xl-4">
             <img
               class="
                 img1
                 img-fluid
-                col-12 col-lg-12
+                col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12
+                
                 width=100%
                 height=auto
                 px-2
@@ -246,12 +252,12 @@
             <h2 class="lato fw-bolder">2020</h2>
             <h6 class="lato width=100% fw-bolder">Web Summit 2020</h6>
           </div>
-          <div class="text-in col-lg-4 col-xl-4 col-md-4">
+          <div class="text-in col-sm-6 col-md-6 col-lg-4 col-xl-4">
             <img
               class="
                 img2
                 img-fluid
-                col-12 col-lg-12
+                col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12
                 width=100%
                 height=auto
                 px-2
@@ -266,122 +272,144 @@
         </div>
       </section>
 
-      <section id="partners" class="sponsors-container white mx-2 mt-5 pb-3">
+    
+      <section id="partners" class="sponsors-container white mb-0 p-0">
         <div class="sponsors text-center">
           <h3 class="pt-3">Partner</h3>
           <span class="line mb-3"></span>
+        </div>
 
-          <div class="spn-columns row-lg row-xl container-fluid p-0 m-0">
-            <div
+        <div
+          class="
+            spn-columns
+            col-12 col-md-12
+            d-lg-flex
+            d-xl-flex
+            m-0
+           pb-4
+            text-center
+            justify-content-evenly
+          
+          "
+        >
+          <div
+            class="
+              m-0
+              pe-5
+              col-12
+              col-md-12
+              col-sd-12
+              d-md-flex
+              d-sm-flex
+              align-items-center
+              d-flex
+              row-partner2
+              col-12
+              d-lg-flex d-xl-flex
+              col-md-12 col-lg-6 col-xl-6
+              justify-content-evenly
+              ps-5
+              m-0
+            "
+          >
+            <h3
               class="
-                pr1
-                container-fluid
-                row-xl
-                justify-content-center
-                spn1
-                col-md-6 col-lg-6 col-xl-6
-                mb-2
-                mx-0
-                px-0
-              "
-            >
-              <h3
-                class="
-                  partner1
-                  col-4 col-md-4 col-lg-4 col-xl-4
-                  lato
-                  fw-bolder
-                  fst-italic
-                  fw-bolder
-                  m-0
-                "
-              >
-                microsoft
-              </h3>
-              <h3 class="partner2 col-4 col-md-4 col-lg-4 col-xl-4 lato">
-                Google
-              </h3>
-              <h3
-                class="
-                  partner3
-                  col-4 col-md-4 col-lg-4 col-xl-4
-                  coco
-                  fst-italic
-                  fw-bolder
-                  text-center
-                  me-0
-                  p-0
-                "
-              >
-                Facebook
-              </h3>
-            </div>
-            <div
-              class="
-                pr2
-                row-xl
-                row-lg row-md
-                justify-content-center
-                container-fluid
-                col-md-6 col-lg-6 col-xl-6
-                spn2
-                p-0
+                partner1
+                col-5 col-md-4
+                lato
+                fw-bolder
+                fst-italic
+                fw-bolder
                 m-0
+                pb-2
               "
             >
-              <h3
-                class="
-                  partner4
-                  text-start
-                  col-7 col-md-7 col-lg-7 col-xl-7
-                  m-0
-                  ps-5
-                "
-              >
-                booking.com
-              </h3>
-              <h3
-                class="
-                  partner5
-                  col-5
-                  text-start
-                  col-md-5 col-lg-5 col-xl-5
-                  m-0
-                  fst-italic
-                "
-              >
-                <i class="icon fab fa-apple me-1"></i>apple
-              </h3>
-            </div>
+              microsoft
+            </h3>
+            <h3 class="partner2 col-5 col-md-4 lato">Google</h3>
+            <h3
+              class="
+                partner3
+                col-5 col-md-4 col-xl-4
+                coco
+                fst-italic
+                fw-bolder
+                pt-1
+              "
+            >
+              Facebook
+            </h3>
+          </div>
+
+          <div
+            class="
+              d-md-flex
+              d-sm-flex
+            
+              d-flex
+              row-partner2
+              col-sm-12
+              col-12
+              d-lg-flex d-xl-flex
+              col-md-12 col-lg-6 col-xl-6
+              justify-content-evenly
+              pe-5
+              m-0
+            "
+          >
+            <h3 class="partner4 col-6 col-xl-4 col-md-4">booking.com</h3>
+            <h3 class="partner5 col-6 col-xl-4 col-md-4 ps-5 fst-italic">
+              <i class="icon fab fa-apple"></i>apple
+            </h3>
+
+            <h3
+              class="
+                partner4
+                d-md-none
+                d-sm-none
+                d-none
+                d-lg-block
+                d-xl-block
+                col-4 col-xl-4 col-md-4
+                fst-italic
+                fw-bolder
+                pe-5
+                ps-3
+                me-2
+              "
+            >
+              mozzila
+            </h3>
           </div>
         </div>
       </section>
-      <section class="footer my-3 row m-0 justify-content-space-center">
+      <section class="footer my-3 d-flex m-0 ">
         <ul
           class="
             mail
-            col-5
+            col-6  col-sm-6 col-md-6 col-lg-6 col-xl-6
             list-unstyled
-            row
-            mt-3
-            ms-3
-            align-items-center
-            justify-content-center
+            d-flex
+            pt-4
+          
+            
+         
+            
           "
         >
-          <li class="mail-icon col-2 ps-1 pb-2">
-            <i class="fas fa-envelope-square"></i>
+          <li class="mail-icon col-3 col-md-3col-lg-3 colxl-3 pe-2 pt-sm-3 pt-md-3  pt-xl-3 text-end">
+            <i class="fas fa-envelope-square fa-2x"></i>
           </li>
-          <li class="col-10 p-0 m-0">
-            <h6 class="lato fw-bolder mail-txt">creative commons<br />korea</h6>
+          <li class="col-9 col-md-9 col-lg-9 col-xl-9 p-0 m-0">
+            <h6 class="lato fw-bolder mail-txt">Lisbon@<br />websummit.com</h6>
           </li>
         </ul>
-        <div class="footer-txt col-6">
-          <p class="footer1st-p lato me-3 text-end pt-3 greyer">
-            2021 Creative Commons Korea.
+        <div class=" col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 p-0 m-0">
+          <p class=" lato  pt-4 m-0 greyer ">
+            2022 Web Summit Lisbon.
           </p>
-          <p class="footerp-hide lato me-3 text-end pt-3 greyer">
-            There are many variations of passages of Lorem Ipsum
+          <p class=" lato  greyer d-none d-sm-none d-md-block d-lg-block d-xl-block">
+            We can’t wait to return to Lisbon next November.
           </p>
         </div>
       </section>
