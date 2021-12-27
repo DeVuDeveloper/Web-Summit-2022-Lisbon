@@ -105,6 +105,17 @@ nav li a {
   bottom: 20px;
 }
 
+.logo-home {
+  left: 210px;
+  width: 30%;
+  height: auto;
+  bottom: 5px;
+}
+
+.columns-row1 {
+  margin-bottom: 30px;
+}
+
 .close {
   display: block;
   position: relative;
@@ -202,21 +213,17 @@ nav li a {
   bottom: 15px;
 }
 
-.images1 {
+.images {
   position: relative;
-  top: 0;
-  left: 0;
+  top: 18px;
   height: 100%;
   z-index: -1;
-  margin-bottom: 50px;
 }
 
-.image2 {
-  position: absolute;
-  top: 40px;
-  left: 30px;
-  height: 130%;
-  z-index: 1500;
+.image1 {
+  position: relative;
+  z-index: -1;
+  margin-bottom: 50px;
 }
 
 .description h4 {
@@ -228,18 +235,6 @@ nav li a {
 }
 
 .description h6 {
-  font-size: 1.6vh;
-}
-
-.description1 h4 {
-  font-size: 2.3vh;
-}
-
-.description1 h5 {
-  font-size: 1.8vh;
-}
-
-.description1 h6 {
   font-size: 1.6vh;
 }
 
@@ -266,12 +261,9 @@ nav li a {
   color: #5f5d5d;
 }
 
-.description1 {
-  margin-top: -15px;
-}
-
-.description {
-  margin-top: 50px;
+.hide-btn i {
+  margin-left: 3px;
+  color: red;
 }
 
 .sponsors-container {
@@ -292,8 +284,6 @@ nav li a {
 
 .partner3 {
   font-size: 20px;
-  margin-left: -10px;
-  margin-top: 7px;
   color: #a19f9f;
 }
 
@@ -307,6 +297,13 @@ nav li a {
   color: #a19f9f;
 }
 
+.image2 {
+  position: absolute;
+  top: 10px;
+  left: 22px;
+  z-index: 1500;
+}
+
 .footer p {
   font-size: 1.7vh;
 }
@@ -315,9 +312,28 @@ nav li a {
   font-size: 2.1vh;
 }
 
+.black-nav {
+  visibility: hidden;
+  height: 0;
+}
+
+.for-hide {
+  display: none;
+}
+
+.footerp-hide {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .menu {
     display: none;
+  }
+
+  .black-nav {
+    visibility: visible;
+    height: 100%;
+    padding-right: 50px;
   }
 
   .hide-btn {
@@ -328,10 +344,6 @@ nav li a {
   .hide-cards {
     visibility: visible !important;
     height: 100% !important;
-  }
-
-  .black-nav {
-    padding-right: 50px;
   }
 
   .logo-home {
@@ -360,52 +372,6 @@ nav li a {
     margin-right: 200px;
   }
 
-  .card-cont {
-    display: flex;
-    width: max-content;
-    height: 300px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .program-text {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-items: center;
-    width: 20%;
-    margin-right: 20px;
-  }
-
-  .fix1 {
-    position: relative;
-    top: 47px;
-    left: -20px;
-  }
-
-  .fix2 {
-    position: relative;
-    top: 47px;
-    left: -38px;
-  }
-
-  .program-text h5 {
-    position: relative;
-    top: 40px;
-    width: 90%;
-    text-align: center;
-    font-size: 1.7vh;
-    color: white;
-    margin: auto;
-  }
-
-  .img1 {
-    position: relative;
-    top: 15px;
-    left: -20px;
-    color: white;
-  }
-
   .program-footer {
     display: none;
   }
@@ -422,73 +388,12 @@ nav li a {
     border: 3px solid #fff;
   }
 
-  .card-wraper1 {
-    margin-bottom: 40px;
-  }
-
-  .card-wraper {
-    margin-bottom: 40px;
-  }
-
-  .description1 {
-    margin-bottom: 50px;
-  }
-
-  .images1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100%;
-    z-index: -1;
-    margin-bottom: 50px;
-  }
-
-  .images {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100%;
-    z-index: -1;
-    margin: 30px 0;
-  }
-
-  .image1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 10%;
-    margin-top: 15px;
-  }
-
-  .image2 {
-    position: absolute;
-    top: 33px;
-    left: 30px;
-    height: 130%;
-    z-index: 1500;
-  }
-
   .speaker-txt {
     bottom: 0;
   }
 
   .spn-columns h3 {
     font-size: 30px;
-  }
-
-  .mail {
-    position: relative;
-    left: 130px;
-  }
-
-  .mail-icon {
-    color: rgb(49, 47, 47);
-    position: relative;
-    left: 35px;
-  }
-
-  .footer {
-    padding: 10px 0;
   }
 
   .footer p {
@@ -543,7 +448,7 @@ nav li a {
     text-align: center;
     height: 300px;
     padding: 0;
-   }
+  }
 
   .program-text {
     display: flex;
