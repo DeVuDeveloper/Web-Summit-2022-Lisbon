@@ -405,6 +405,151 @@ nav li a {
     font-size: 24px;
     color: rgb(29, 28, 28);
   }
+  
+  .footerp-hide {
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .black-nav {
+    display: none;
+  }
+
+  .navbar-light {
+    display: none;
+  }
+
+  .for-hide {
+    display: none;
+  }
+
+  .card-wraper {
+    margin-top: -55px;
+    margin-bottom: -30px;
+  }
+
+  .footerp-hide {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991.8px) and (min-width: 768px) {
+  .mail {
+    left: 50px;
+  }
+
+  .mail-icon {
+    left: 30px;
+  }
+
+  .card-cont {
+    display: flex;
+    width: max-content;
+    text-align: center;
+    height: 300px;
+    padding: 0;
+   }
+
+  .program-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    width: 20%;
+    margin-right: 20px;
+    padding: 0;
+  }
+
+  .fix1 {
+    position: relative;
+    top: 47px;
+    left: -50px;
+  }
+
+  .fix2 {
+    position: relative;
+    top: 47px;
+    left: -48px;
+  }
+
+  .program-text h5 {
+    position: relative;
+    top: 40px;
+    width: 90%;
+    text-align: center;
+    font-size: 1.3vh;
+    color: white;
+    margin: auto;
+  }
+
+  .img1 {
+    position: relative;
+    top: 15px;
+    left: -20px;
+    color: white;
+  }
+
+  .sponsors-container {
+    padding: 0;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .spn-columns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .spn-columns h3 {
+    font-size: 30px;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .pr2 h3 {
+    position: relative;
+    left: 150px;
+    bottom: 7px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-home {
+    left: 210px;
+    width: 30%;
+    height: auto;
+    bottom: 5px;
+  }
+
+  .images {
+    position: relative;
+    top: 10px;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .image2 {
+    position: absolute;
+    top: 10px;
+    left: 22px;
+    z-index: 1500;
+  }
+
+  .card-wraper {
+    margin-bottom: 30px;
+  }
+
+  .columns-row1 {
+    margin-bottom: 30px;
+  }
 }
 
 .close:hover {
