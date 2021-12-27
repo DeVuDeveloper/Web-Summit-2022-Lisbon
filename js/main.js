@@ -17,7 +17,7 @@ const hideBtn = document.querySelector('.hide-btn');
 const show = document.querySelector('.show-items');
 const icon = document.querySelector('.hide-btn i');
 const caretDown = ('fa', 'fa-chevron-down');
-const caretUp = ('fa','fa-chevron-up');
+const caretUp = ('fa', 'fa-chevron-up');
 
 hideBtn.addEventListener('click', () => {
   hiddenElement.forEach((item) => {

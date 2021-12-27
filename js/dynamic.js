@@ -54,7 +54,7 @@ const featuredSpeakers3 = [
     id: 2,
     name: 'Vujovic Dejan',
     description: 'CEO of Microsoft',
-    about: "He defines his mission and that of his company as empowering every person and every organization on the planet to achieve more.",
+    about: 'He defines his mission and that of his company as empowering every person and every organization on the planet to achieve more.',
     img1: 'img/speaker-background.jpg',
     img2: 'img/speaker6.png',
   },
@@ -95,7 +95,6 @@ for (let i = 0; i < featuredSpeakers2.length; i += 1) {
 
   speakers2.innerHTML += `
         
-        
   <div  id='${featuredSpeaker2.id}' class='col-md-6 col-lg-5 col-xl-5 mt-3 '>
   <div class="row align-items-start justify-content-start">
     <div class="images  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
@@ -116,22 +115,19 @@ for (let i = 0; i < featuredSpeakers2.length; i += 1) {
 `;
 }
 
-
 const speakers3 = document.querySelector('.columns-row3');
 
 for (let i = 0; i < featuredSpeakers2.length; i += 1) {
   const featuredSpeaker3 = featuredSpeakers3[i];
 
   speakers3.innerHTML += `
-        
-        
+
   <div  id='${featuredSpeaker3.id}' class='col-md-6 col-lg-5 col-xl-5 mt-3'>
   <div class="row align-items-start justify-content-start">
     <div class="images  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
          <img class="image1 img-fluid" src="${featuredSpeaker3.img1}" alt="" width=60% height=80%>
         <img class="image2 " src="${featuredSpeaker3.img2}" alt='${featuredSpeaker3.name}' width=80% height=100%>
-
-    </div>
+  </div>
     <div class="description align-items-center justify-content-center col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 mt-2">
         <h4>${featuredSpeaker3.name}</h4>
         <h5 class='red fst-italic fw-bold'>${featuredSpeaker3.description}
