@@ -140,4 +140,3 @@ for (let i = 0; i < featuredSpeakers2.length; i += 1) {
 </div>
 `;
 }
-
