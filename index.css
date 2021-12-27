@@ -105,6 +105,17 @@ nav li a {
   bottom: 20px;
 }
 
+.logo-home {
+  left: 210px;
+  width: 30%;
+  height: auto;
+  bottom: 5px;
+}
+
+.columns-row1 {
+  margin-bottom: 30px;
+}
+
 .close {
   display: block;
   position: relative;
@@ -202,20 +213,23 @@ nav li a {
   bottom: 15px;
 }
 
-.images1 {
+.images {
   position: relative;
-  top: 0;
-  left: 0;
+  top: 18px;
   height: 100%;
+  z-index: -1;
+}
+
+.image1 {
+  position: relative;
   z-index: -1;
   margin-bottom: 50px;
 }
 
 .image2 {
   position: absolute;
-  top: 40px;
-  left: 30px;
-  height: 130%;
+  top: 10px;
+  left: 22px;
   z-index: 1500;
 }
 
@@ -229,19 +243,8 @@ nav li a {
 
 .description h6 {
   font-size: 1.6vh;
-}
+} 
 
-.description1 h4 {
-  font-size: 2.3vh;
-}
-
-.description1 h5 {
-  font-size: 1.8vh;
-}
-
-.description1 h6 {
-  font-size: 1.6vh;
-}
 
 .line2 {
   display: block;
@@ -266,13 +269,9 @@ nav li a {
   color: #5f5d5d;
 }
 
-.description1 {
-  margin-top: -15px;
-}
-
 .description {
   margin-top: 50px;
-}
+} 
 
 .sponsors-container {
   background: #222;
@@ -283,17 +282,15 @@ nav li a {
   color: #c9c2c2;
 }
 
-.partner2 {
+ .partner2 {
   font-size: 26px;
   background: -webkit-linear-gradient(#eee, rgb(116, 113, 113));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} 
 
 .partner3 {
   font-size: 20px;
-  margin-left: -10px;
-  margin-top: 7px;
   color: #a19f9f;
 }
 
@@ -315,10 +312,29 @@ nav li a {
   font-size: 2.1vh;
 }
 
+ .black-nav {
+  visibility: hidden;
+  height: 0;
+} 
+
+.for-hide {
+  display: none;
+}
+
+.footerp-hide {
+  display: none;
+}
+
+
 @media only screen and (min-width: 768px) {
   .menu {
     display: none;
   }
+
+  .black-nav {
+    visibility: visible;
+    height: 100%;
+  } 
 
   .hide-btn {
     visibility: hidden;
@@ -360,52 +376,6 @@ nav li a {
     margin-right: 200px;
   }
 
-  .card-cont {
-    display: flex;
-    width: max-content;
-    height: 300px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .program-text {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-items: center;
-    width: 20%;
-    margin-right: 20px;
-  }
-
-  .fix1 {
-    position: relative;
-    top: 47px;
-    left: -20px;
-  }
-
-  .fix2 {
-    position: relative;
-    top: 47px;
-    left: -38px;
-  }
-
-  .program-text h5 {
-    position: relative;
-    top: 40px;
-    width: 90%;
-    text-align: center;
-    font-size: 1.7vh;
-    color: white;
-    margin: auto;
-  }
-
-  .img1 {
-    position: relative;
-    top: 15px;
-    left: -20px;
-    color: white;
-  }
-
   .program-footer {
     display: none;
   }
@@ -422,73 +392,12 @@ nav li a {
     border: 3px solid #fff;
   }
 
-  .card-wraper1 {
-    margin-bottom: 40px;
-  }
-
-  .card-wraper {
-    margin-bottom: 40px;
-  }
-
-  .description1 {
-    margin-bottom: 50px;
-  }
-
-  .images1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100%;
-    z-index: -1;
-    margin-bottom: 50px;
-  }
-
-  .images {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100%;
-    z-index: -1;
-    margin: 30px 0;
-  }
-
-  .image1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 10%;
-    margin-top: 15px;
-  }
-
-  .image2 {
-    position: absolute;
-    top: 33px;
-    left: 30px;
-    height: 130%;
-    z-index: 1500;
-  }
-
   .speaker-txt {
     bottom: 0;
   }
 
   .spn-columns h3 {
     font-size: 30px;
-  }
-
-  .mail {
-    position: relative;
-    left: 130px;
-  }
-
-  .mail-icon {
-    color: rgb(49, 47, 47);
-    position: relative;
-    left: 35px;
-  }
-
-  .footer {
-    padding: 10px 0;
   }
 
   .footer p {
@@ -498,152 +407,6 @@ nav li a {
   .footer h6 {
     font-size: 24px;
     color: rgb(29, 28, 28);
-  }
-
-  .footerp-hide {
-    margin-top: -30px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .black-nav {
-    display: none;
-  }
-
-  .navbar-light {
-    display: none;
-  }
-
-  .for-hide {
-    display: none;
-  }
-
-  .card-wraper {
-    margin-top: -55px;
-    margin-bottom: -30px;
-  }
-
-  .footerp-hide {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 991.8px) and (min-width: 768px) {
-  .mail {
-    left: 50px;
-  }
-
-  .mail-icon {
-    left: 30px;
-  }
-
-  .card-cont {
-    display: flex;
-    width: max-content;
-    text-align: center;
-    height: 300px;
-    padding: 0;
-    border: 2px solid green;
-  }
-
-  .program-text {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-items: center;
-    width: 20%;
-    margin-right: 20px;
-    padding: 0;
-  }
-
-  .fix1 {
-    position: relative;
-    top: 47px;
-    left: -50px;
-  }
-
-  .fix2 {
-    position: relative;
-    top: 47px;
-    left: -48px;
-  }
-
-  .program-text h5 {
-    position: relative;
-    top: 40px;
-    width: 90%;
-    text-align: center;
-    font-size: 1.3vh;
-    color: white;
-    margin: auto;
-  }
-
-  .img1 {
-    position: relative;
-    top: 15px;
-    left: -20px;
-    color: white;
-  }
-
-  .sponsors-container {
-    padding: 0;
-    position: relative;
-    margin-top: 50px;
-  }
-
-  .spn-columns {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .spn-columns h3 {
-    font-size: 30px;
-    padding: 0;
-    margin-left: 0;
-  }
-
-  .pr2 h3 {
-    position: relative;
-    left: 150px;
-    bottom: 7px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .logo-home {
-    left: 210px;
-    width: 30%;
-    height: auto;
-    bottom: 5px;
-  }
-
-  .images {
-    position: relative;
-    top: 10px;
-    height: 100%;
-    z-index: -1;
-  }
-
-  .image1 {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-
-  .image2 {
-    position: absolute;
-    top: 10px;
-    left: 22px;
-    z-index: 1500;
-  }
-
-  .card-wraper {
-    margin-bottom: 30px;
-  }
-
-  .columns-row1 {
-    margin-bottom: 30px;
   }
 }
 

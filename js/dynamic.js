@@ -52,9 +52,9 @@ const featuredSpeakers3 = [
   },
   {
     id: 2,
-    name: 'Amy Poehler',
-    description: ' CMO at Mars, Incorporated',
-    about: " Founder at Amy Poehler's Smart GirlsAmy. Poehler is an American actress, comedian, writer, producer, and director.",
+    name: 'Vujovic Dejan',
+    description: ' Executive chairman and CEO of Microsoft',
+    about: "I define my mission and that of my company as empowering every person and every organization on the planet to achieve more.",
     img1: 'img/speaker-background.jpg',
     img2: 'img/speaker6.png',
   },
@@ -67,14 +67,14 @@ for (let i = 0; i < featuredSpeakers1.length; i += 1) {
 
   speakers1.innerHTML += `
         
-      <div  id='${featuredSpeaker1.id}' class='card-wraper1 col-md-4 col-lg-4 col-xl-4  align-items-center mb-3'>
-       <div class="row ">
-         <div class="images1  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+      <div  id='${featuredSpeaker1.id}' class=' col-md-6 col-lg-5 col-xl-5 col-xxl-5 mb-sm-3 mb-xl-3 m-0'>
+       <div class="row col-xl-12 align-items-center justify-content-center ">
+         <div class="images  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
               <img class="image1 img-fluid" src="${featuredSpeaker1.img1}" alt="${featuredSpeaker1.name}" width=70% height=80%>
-             <img class="image2 " src="${featuredSpeaker1.img2}" alt='' width=80% height=150%>
+             <img class="image2 " src="${featuredSpeaker1.img2}" alt='' width=80% height=100%>
    
          </div>
-         <div class="description1 col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 no-gutters">
+         <div class="description col-8 col-sm col-md-8 col-lg-8 col-xl-8 ">
              <h4>${featuredSpeaker1.name}</h4>
              <h5 class='red fst-italic fw-bold'>${featuredSpeaker1.description}
              </h5>
@@ -95,14 +95,14 @@ for (let i = 0; i < featuredSpeakers2.length; i += 1) {
   speakers2.innerHTML += `
         
         
-  <div  id='${featuredSpeaker2.id}' class='card-wraper1 col-md-4 col-lg-4 col-xl-4  align-items-center mb-3'>
-  <div class="row ">
-    <div class="images1  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+  <div  id='${featuredSpeaker2.id}' class='col-md-6 col-lg-5 col-xl-5 mb-xl-3'>
+  <div class="row align-items-center justify-content-center">
+    <div class="images  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
          <img class="image1 img-fluid" src="${featuredSpeaker2.img1}" alt="" width=70% height=80%>
-        <img class="image2 " src="${featuredSpeaker2.img2}" alt='${featuredSpeaker2.name}' width=80% height=150%>
+        <img class="image2 " src="${featuredSpeaker2.img2}" alt='${featuredSpeaker2.name}' width=80% height=100%>
 
     </div>
-    <div class="description1 col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 no-gutters">
+    <div class="description col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 no-gutters">
         <h4>${featuredSpeaker2.name}</h4>
         <h5 class='red fst-italic fw-bold'>${featuredSpeaker2.description}
         </h5>
@@ -123,14 +123,14 @@ for (let i = 0; i < featuredSpeakers3.length; i += 1) {
   speakers3.innerHTML += `
         
         
-  <div  id='${featuredSpeaker3.id}' class='card-wraper1 col-md-4 col-lg-4 col-xl-4  align-items-center mb-3'>
-  <div class="row ">
-    <div class="images1  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+  <div  id='${featuredSpeaker3.id}' class='col-md-6 col-lg-5 col-xl-5 align-items-center '>
+  <div class="row align-items-center justify-content-center">
+    <div class="images  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
          <img class="image1 img-fluid" src="${featuredSpeaker3.img1}" alt="" width=70% height=80%>
-        <img class="image2 " src="${featuredSpeaker3.img2}" alt='${featuredSpeaker3.name}' width=80% height=150%>
+        <img class="image2 " src="${featuredSpeaker3.img2}" alt='${featuredSpeaker3.name}' width=80% height=100%>
 
     </div>
-    <div class="description1 col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 no-gutters">
+    <div class="description col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 no-gutters">
         <h4>${featuredSpeaker3.name}</h4>
         <h5 class='red fst-italic fw-bold'>${featuredSpeaker3.description}
         </h5>
