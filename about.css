@@ -166,14 +166,14 @@ nav li a {
   text-align: center;
   color: white;
 }
- 
+
 .text-in h2 {
   position: absolute;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 4vh;
-} 
+}
 
 .text-in h6 {
   position: absolute;
@@ -266,7 +266,7 @@ nav li a {
 
   .text-in h2 {
     top: 43%;
-  }
+  } 
 
   .text-in h6 {
     top: 55%;

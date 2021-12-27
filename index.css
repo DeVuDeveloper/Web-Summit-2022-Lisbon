@@ -261,7 +261,7 @@ nav li a {
   color: #5f5d5d;
 }
 
-.hide-btn i{
+.hide-btn i {
   margin-left: 3px;
   color: red;
 }
@@ -324,7 +324,6 @@ nav li a {
 .footerp-hide {
   display: none;
 }
-
 
 @media only screen and (min-width: 768px) {
   .menu {
@@ -449,7 +448,7 @@ nav li a {
     text-align: center;
     height: 300px;
     padding: 0;
-   }
+  }
 
   .program-text {
     display: flex;
