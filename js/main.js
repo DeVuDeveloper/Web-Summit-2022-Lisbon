@@ -19,20 +19,20 @@ const icon = document.querySelector('.hide-btn i');
 const caretDown = ('fa', 'fa-chevron-down');
 const caretUp = ('fa', 'fa-chevron-up');
 
-hideBtn.addEventListener('click', () => {
-  hiddenElement.forEach((item) => {
-    if (item.style.visibility === 'hidden') {
-      item.style.visibility = 'visible';
-      item.style.height = '100%';
-      show.textContent = 'LESS';
-      icon.classList.remove(caretDown);
-      icon.classList.add(caretUp);
-    } else {
+hiddenElement.forEach((item) => {
+  hideBtn.addEventListener('click', () => {
+    if (item.style.visibility === 'visible') {
       item.style.visibility = 'hidden';
       item.style.height = '0';
       show.textContent = 'MORE';
       icon.classList.remove(caretUp);
       icon.classList.add(caretDown);
+    } else {
+      item.style.visibility = 'visible';
+      item.style.height = '100%';
+      show.textContent = 'LESS';
+      icon.classList.remove(caretDown);
+      icon.classList.add(caretUp);
     }
   });
 });
