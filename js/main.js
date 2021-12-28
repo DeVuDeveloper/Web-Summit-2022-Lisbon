@@ -20,19 +20,19 @@ const caretDown = ('fa', 'fa-chevron-down');
 const caretUp = ('fa', 'fa-chevron-up');
 
 hiddenElement.forEach((item) => {
-hideBtn.addEventListener('click', () => {
- if (item.style.visibility === 'visible') {
-    item.style.visibility = 'hidden';
-    item.style.height = '0';
-    show.textContent = 'MORE';
-    icon.classList.remove(caretUp);
-    icon.classList.add(caretDown);
-  } else {
-    item.style.visibility = 'visible';
-    item.style.height = '100%';
-    show.textContent = 'LESS';
-    icon.classList.remove(caretDown);
-    icon.classList.add(caretUp);
-  }
- });
+  hideBtn.addEventListener('click', () => {
+    if (item.style.visibility === 'visible') {
+      item.style.visibility = 'hidden';
+      item.style.height = '0';
+      show.textContent = 'MORE';
+      icon.classList.remove(caretUp);
+      icon.classList.add(caretDown);
+    } else {
+      item.style.visibility = 'visible';
+      item.style.height = '100%';
+      show.textContent = 'LESS';
+      icon.classList.remove(caretDown);
+      icon.classList.add(caretUp);
+    }
+  });
 });
