@@ -1,32 +1,33 @@
 # Web Summit 2022 Lisbon
-## Capstone project for Microverse module Portal.
 
-## Homepage
-- Section with hamburger menu for mobile,
-- 2 navbars with links.
-- Section with programs,
-- Section 'Speakers',
-- Section Partners,
-- Footer.
+Live preview [here](https://vudej.github.io/Web-Summit-2022-Lisbon/). 
 
-## About
-- Section with hamburger menu for mobile,
-- 2 navbars with links,
-- Logo,
-- Last two Web Summits,
-- Footer.
+## Screenshots
+![Example screenshot](img/screenshot.png)
 
-### Section Speakers is made dynamically with javascripts.
+## Contents
+* [Homepage](#homepage)
+* [Program](#program)
+* [Partners](#partners)
+* [Contact](#contact)
+* [Hamburger menu](#mobile)
+* [Click more for expand speakers](#speakers)
 
- ## Built With
-- HTML
-- CSS
-- Bootstrap
-- Javascript
+## General info
+This project is my first Capstone.
+	
+## Technologies
+Project is created with:
+* HTML
+* CSS
+* Bootstrap
+* Javascript
 
-## Getting Started
-- git clone https://github.com/VuDej/Capstone-Portal.git
-- git push -u origin main
+	
+## Setup
+To run this project, install it locally using:
+$ cd Desktop
+$ git clone https://vudej.github.io/Web-Summit-2022-Lisbon/
 
 ## Author
 
@@ -41,7 +42,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/VuDej/Capstone-Portal/issues/3).
+Feel free to check the [issues page](https://github.com/VuDej/Web-Summit-2022-Lisbon/issues/3).
 
 ## Show your support
 
@@ -50,11 +51,12 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - A special thanks to Cindy Shin author of the original design.
-- A special thanks goes for beautiful design from which I learned also a lot..
-- Happy Holidays.
 
 ## 📝 License
 
 This project is [MIT](LICENSE) licensed.
 
-Live preview [here](https://vudej.github.io/Web-Summit-2022-Lisbon/).
+## Contact
+Created by [@VuDej](https://github.com/VuDej) - feel free to contact me!
+
+
