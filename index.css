@@ -71,8 +71,7 @@ nav {
   position: fixed;
   top: 0;
   width: auto;
-  background-color: rgb(233, 240, 238);
-  opacity: 0.9;
+  background-image: url(img/bck1.jpg);
   overflow-y: hidden;
   z-index: 1500;
   transition: 0.5s;
@@ -81,17 +80,17 @@ nav {
 nav li {
   position: relative;
   left: -9px;
-  top: 120px;
+  top: 50px;
 }
 
 nav li a {
-  color: #fc6209;
+  color: rgb(179, 176, 176);
 }
 
 .nav-logo {
   position: relative;
-  top: 25%;
-  left: 25%;
+  top: 10%;
+  left: 30%;
 }
 
 .line3 {
@@ -99,9 +98,9 @@ nav li a {
   display: block;
   align-items: center;
   width: 20%;
-  border: 2px solid #fc6209;
+  border: 2px solid rgb(189, 188, 188);
   margin: auto;
-  top: 35%;
+  top: 25%;
   bottom: 20px;
 }
 
@@ -119,10 +118,10 @@ nav li a {
 .close {
   display: block;
   position: relative;
-  top: -123px;
+  top: -45px;
   left: 32px;
   font-size: 50px;
-  color: #131212;
+  color: rgb(126, 124, 124);
   cursor: pointer;
 }
 
@@ -442,53 +441,6 @@ nav li a {
     left: 30px;
   }
 
-  .card-cont {
-    display: flex;
-    width: max-content;
-    text-align: center;
-    height: 300px;
-    padding: 0;
-  }
-
-  .program-text {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-items: center;
-    width: 20%;
-    margin-right: 20px;
-    padding: 0;
-  }
-
-  .fix1 {
-    position: relative;
-    top: 47px;
-    left: -50px;
-  }
-
-  .fix2 {
-    position: relative;
-    top: 47px;
-    left: -48px;
-  }
-
-  .program-text h5 {
-    position: relative;
-    top: 40px;
-    width: 90%;
-    text-align: center;
-    font-size: 1.3vh;
-    color: white;
-    margin: auto;
-  }
-
-  .img1 {
-    position: relative;
-    top: 15px;
-    left: -20px;
-    color: white;
-  }
-
   .sponsors-container {
     padding: 0;
     position: relative;
@@ -534,7 +486,7 @@ nav li a {
     top: 0;
     left: 0;
   }
-
+  
   .image2 {
     position: absolute;
     top: 10px;
