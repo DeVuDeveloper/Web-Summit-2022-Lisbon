@@ -318,3 +318,13 @@ nav li a {
     font-size: 1.6vh;
   }
 }
+
+@media (max-width: 350px) {
+  .partner1 {
+    font-size: 23px;
+  }
+
+  .partner3 {
+    font-size: 19px;
+  }
+}
