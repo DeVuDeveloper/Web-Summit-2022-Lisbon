@@ -57,4 +57,4 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](LICENSE) licensed.
 
-Live preview [here](https://vudej.github.io/Capstone-Portal/).
+Live preview [here](https://vudej.github.io/Web-Summit-2022-Lisbon/).
