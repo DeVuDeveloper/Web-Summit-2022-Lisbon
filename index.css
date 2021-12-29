@@ -418,6 +418,14 @@ nav li a {
     display: none;
   }
 
+  .partner1 {
+    font-size: 20px;
+  }
+
+  .partner3 {
+    font-size: 17px;
+  }
+
   .for-hide {
     display: none;
   }
