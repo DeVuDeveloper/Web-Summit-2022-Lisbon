@@ -74,8 +74,7 @@ nav {
   position: fixed;
   top: 0;
   width: auto;
-  background-color: rgb(233, 240, 238);
-  opacity: 0.9;
+  background-image: url(img/bck1.jpg);
   overflow-y: hidden;
   z-index: 1500;
   transition: 0.5s;
@@ -84,17 +83,17 @@ nav {
 nav li {
   position: relative;
   left: -9px;
-  top: 120px;
+  top: 50px;
 }
 
 nav li a {
-  color: #fc6209;
+  color: rgb(206, 203, 203);
 }
 
 .nav-logo {
   position: relative;
-  top: 25%;
-  left: 25%;
+  top: 10%;
+  left: 30%;
 }
 
 .line3 {
@@ -102,18 +101,18 @@ nav li a {
   display: block;
   align-items: center;
   width: 20%;
-  border: 2px solid #e6e2e1;
+  border: 2px solid #bebdbd;
   margin: auto;
-  top: 34%;
+  top: 25%;
 }
 
 .close {
   display: block;
   position: relative;
-  top: -122px;
+  top: -45px;
   left: 34px;
   font-size: 50px;
-  color: #131212;
+  color: rgb(160, 157, 157);
   cursor: pointer;
 }
 
