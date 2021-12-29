@@ -52,9 +52,9 @@ const featuredSpeakers3 = [
   },
   {
     id: 2,
-    name: 'Vujovic Dejan',
-    description: 'CEO of Microsoft',
-    about: 'He defines his mission and that of his company as empowering every person and every organization on the planet to achieve more.',
+    name: 'Amy Poehler',
+    description: 'American actress',
+    about: 'Amy Poehler is an American actress, comedian, writer, producer, and director.',
     img1: 'img/speaker-background.jpg',
     img2: 'img/speaker6.png',
   },
