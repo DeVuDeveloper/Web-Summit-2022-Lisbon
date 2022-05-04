@@ -77,7 +77,7 @@ nav {
   background-image: url(img/bck1.jpg);
   overflow-y: hidden;
   z-index: 1500;
-  transition: 0.5s;
+  transition: 0.25s;
 }
 
 nav li {
